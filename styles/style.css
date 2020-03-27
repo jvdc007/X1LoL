@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../imgs/backgrounds/wallpaper.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#listClassification{
+    background-color: rgba(70,130,180,0.5);
+    width: 50%;
+    margin: 0 auto;
+}
+#listClassification div#colocation{
+    border: 1px solid blue;
+    display: inline;
+}
+#listClassification div#nick{
+    border: 1px solid red;
+    display: inline;
+}
