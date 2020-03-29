@@ -1,14 +1,21 @@
 Vue.component('classification', {
     template:
         `<div>
-            <table id='listClassification' v-for='player in players'>
-                <div id='colocation'>    
-                    <div id='nick'>{{player.nick}}</div>
-                    <span>{{player.wins}}</span>
-                    <span>{{player.game - player.wins}}</span>
-                    <span>{{player.ks}}</span>
-                    <span>{{player.pt}}</span>
-                </div>
+            <table id='classification'>
+                <tr>    
+                    <th>Player</th>
+                    <th>Wins</th> 
+                    <th>Loses</th> 
+                    <th>KS</th> 
+                    <th>PT</th> 
+                </tr>
+                <tr v-for='player in players'>
+                    <td>{{player.nick}}</td>
+                    <td>{{player.wins}}</td>
+                    <td>{{player.games - player.wins}}</td>
+                    <td>{{player.ks}}</td>
+                    <td>{{player.pt}}</td>
+                </tr>
             </table>
         </div>`,
     data(){
@@ -34,6 +41,5 @@ Vue.component('classification', {
     mounted(){
         this.pontuation();
         this.ordenation();
-        console.log(this.players);
     }
 })
