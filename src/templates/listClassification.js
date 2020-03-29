@@ -1,7 +1,7 @@
 Vue.component('classification', {
     template:
         `<div>
-            <div id='listClassification' v-for='player in players'>
+            <table id='listClassification' v-for='player in players'>
                 <div id='colocation'>    
                     <div id='nick'>{{player.nick}}</div>
                     <span>{{player.wins}}</span>
@@ -9,7 +9,7 @@ Vue.component('classification', {
                     <span>{{player.ks}}</span>
                     <span>{{player.pt}}</span>
                 </div>
-            </div>
+            </table>
         </div>`,
     data(){
         return{

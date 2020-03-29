@@ -13,11 +13,3 @@ body{
     width: 50%;
     margin: 0 auto;
 }
-#listClassification div#colocation{
-    border: 1px solid blue;
-    display: inline;
-}
-#listClassification div#nick{
-    border: 1px solid red;
-    display: inline;
-}
