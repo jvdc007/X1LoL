@@ -1,14 +1,20 @@
 Vue.component('InfoPlayers', {
     template:
         `<div id='infoPlayers'>
-            <div id='infoHeader' v-if="chosen != ''">
+            <div id='info' v-if="chosen != ''">
                 <img id='icon' v-bind:src='info.icon' />
                 <div id='mainInfo'>
                     <span id='nick'>{{info.nick}}</span>
-                    <div>
-                        <span>Kill</span>
-                        <span>Farm</span>
-                        <span>Tower</span>
+                    <div id='forms'>
+                        <div>
+                            <img src='imgs/icons/kill.png' alt='Kills'/><span v-text='info.kills'/>
+                        </div>
+                        <div>
+                            <img src='imgs/icons/farm.png' alt='Farm'/><span v-text='info.farm'/>
+                        </div>
+                        <div>
+                            <img src='imgs/icons/tower.png' alt='Towers'/><span v-text='info.towers'/>
+                        </div>
                     </div>
                 </div>
             </div>

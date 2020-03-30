@@ -1,21 +1,31 @@
 #infoPlayers{
     background-image: linear-gradient(45deg, rgba(65,105,225,0.2), rgba(70,130,180,0.2));
-    width: 30%;
+    width: 385px;
     padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
 }
-#infoPlayers div#infoHeader{
+#infoPlayers div#info{
     display: flex;
     align-items: center;
-    border: 1px solid red;
 }
-#infoPlayers div#mainInfo{
+#infoPlayers div#info img#icon{
+    width: 60px;
+    height: 100%;
+}
+#infoPlayers div#info div#mainInfo{
     margin-left: 20px;
 }
-#infoPlayers img#icon{
-    width: 50px;
+#infoPlayers div#info div#mainInfo span#nick{
+    font-size: 16pt;
 }
-#infoPlayers span#nick{
-
+#infoPlayers div#info div#mainInfo div#forms{
+    display: flex;
+    margin-top: 5px;
+}
+#infoPlayers div#info div#mainInfo div#forms div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 7px;
 }

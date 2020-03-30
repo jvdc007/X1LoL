@@ -10,9 +10,16 @@ body{
 html, body, #app{
     height: 100%;
 }
+#header{
+    background-color: black;
+    height: 7%;
+    display: flex;
+    align-items: center;
+}
 #content{
     height: 93%;
 }
 .container{
-    margin: 30px;
+    height: 87%;
+    margin: 30px 30px 30px 30px;
 }
