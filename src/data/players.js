@@ -50,6 +50,7 @@ function createPlayers(){
         },
         {
             nick: 'STG Yoqks',
+            icon: '../../imgs/players/STG_Yoqks.png',
             games: 4,
             wins: 4,
             ks: 2

@@ -3,12 +3,7 @@
 	src: url('../fonts/FrizQuadrataBoldBT.ttf');
 }
 *{
-	font-family: lol;
-}
-
-/* Tabela de Classificação */
-th{
-	font-size: 15pt;
+	font-family: 'lol';
+	color: whitesmoke;
 	text-shadow: 1px 1px 1px black;
-	color: goldenrod;
 }

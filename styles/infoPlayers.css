@@ -1,0 +1,21 @@
+#infoPlayers{
+    background-image: linear-gradient(45deg, rgba(65,105,225,0.2), rgba(70,130,180,0.2));
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#infoPlayers div#infoHeader{
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+}
+#infoPlayers div#mainInfo{
+    margin-left: 20px;
+}
+#infoPlayers img#icon{
+    width: 50px;
+}
+#infoPlayers span#nick{
+
+}

@@ -3,7 +3,16 @@
     padding: 0;
 }
 body{
-    background-image: url('../imgs/backgrounds/wallpaper.jpg');
+    background-image: url('../imgs/backgrounds/wallpaper2.jpg');
     background-size: cover;
     background-attachment: fixed;
+}
+html, body, #app{
+    height: 100%;
+}
+#content{
+    height: 93%;
+}
+.container{
+    margin: 30px;
 }

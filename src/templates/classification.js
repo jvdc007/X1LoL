@@ -1,16 +1,20 @@
-Vue.component('classification', {
+Vue.component('Classification', {
     template:
-        `<div>
-            <table id='classification'>
+        `<div id='classification'>
+            <div id='tables'>
+                <button>Eliminatórias</button>
+                <button>Mata-Mata</button>
+            </div>
+            <table>
                 <tr>    
-                    <th>Player</th>
-                    <th>Wins</th> 
-                    <th>Loses</th> 
-                    <th>KS</th> 
-                    <th>PT</th> 
+                    <th class='players'>Player</th>
+                    <th class='infos'>V</th> 
+                    <th class='infos'>D</th> 
+                    <th class='infos'>KS</th> 
+                    <th class='infos'>PT</th> 
                 </tr>
                 <tr v-for='player in players'>
-                    <td>{{player.nick}}</td>
+                    <td id='player' class='players' @click='infoPlayers(player.nick)'>{{player.nick}}</td>
                     <td>{{player.wins}}</td>
                     <td>{{player.games - player.wins}}</td>
                     <td>{{player.ks}}</td>
@@ -36,6 +40,9 @@ Vue.component('classification', {
                 if(a.pt > b.pt) return -1;
                 return 0;
             })
+        },
+        infoPlayers(chosen){
+            eventBus.$emit('info', chosen);
         }
     },
     mounted(){

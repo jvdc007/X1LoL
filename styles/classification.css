@@ -1,7 +1,42 @@
-table#classification{
-    background-color: rgba(70,130,180,0.5);
-    border: 1px solid rgba(70,130,180,0.5);
-    margin: 20px auto;
-    width: 50%;
+#classification{
+    background-image: linear-gradient(45deg, rgba(65,105,225,0.2), rgba(70,130,180,0.2));
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+}
+#classification div#tables{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+#classification button{
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+    padding: 5px;
+    font-size: 12pt;
+    text-decoration: underline;
+}
+#classification table{
+    width: 100%;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    border-radius: 30px;
+    padding: 20px;
+}
+#classification th{
+    font-size: 15pt;
+    border-bottom: 1px solid whitesmoke;
+}
+#classification th.infos{
+    width: 35px;
+}
+#classification td{
     text-align: center;
+    border-bottom: 1px solid whitesmoke;
+}
+#classification td#player{
+    width: 200px;
+}
+#classification td.players{
+    text-align: left;
 }
