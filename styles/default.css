@@ -3,7 +3,6 @@
     padding: 0;
 }
 body{
-    background-image: url('../imgs/backgrounds/wallpaper2.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -12,21 +11,19 @@ html, body, #app{
 }
 #header{
     background-color: black;
-    height: 7%;
     display: flex;
     align-items: center;
     position: fixed;
     left: 0;
     right: 0;
+    height: 7%;
 }
 #content{
-    border: 1px solid red;
     height: 93%;
     position: fixed;
-    top: 0;
+    top: 7%;
     left: 0;
     right: 0;
     bottom: 0;
     padding: 20px;
-    margin-top: 3%;
 }

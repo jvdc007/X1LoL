@@ -1,6 +1,7 @@
 #classification{
     background-image: linear-gradient(45deg, rgba(65,105,225,0.2), rgba(70,130,180,0.2));
     width: 385px; /* 30% (100% = 1283,3333) */
+    height: 60%;
     padding: 10px;
     border-radius: 5px;
 }
@@ -34,9 +35,17 @@
     text-align: center;
     border-bottom: 1px solid whitesmoke;
 }
-#classification td#player{
-    width: 200px;
-}
 #classification td.players{
+    width: 200px;
+    cursor: pointer;
     text-align: left;
+}
+td#pos1, td#pos2{
+    color: lawngreen;
+}
+td#pos3, td#pos4, td#pos5, td#pos6{
+    color: royalblue;
+}
+td#pos7, td#pos8, td#pos9, td#pos10{
+    color: tomato;
 }

@@ -230,29 +230,30 @@ function round2(){
 }
 function round3(){
     return [
+        // {
+        //     id: 1,
+        //     class: 'Suporte',
+        //     player1: 'STG Yoqks',
+        //     champ1: '',
+        //     bans1: ['', '', ''],
+        //     player2: 'Panquequin',
+        //     champ2: '',
+        //     bans2: ['', '', ''],
+        //     winner: 0,
+        //     form: 0
+        // },{
+        //     id: 2,
+        //     class: 'Atirador',
+        //     player1: 'Panquequin',
+        //     champ1: '*',
+        //     bans1: ['', '', ''],
+        //     player2: 'STG Yoqks',
+        //     champ2: '*',
+        //     bans2: ['', '', ''],
+        //     winner: 0,
+        //     form: 0
+        // },
         {
-            id: 1,
-            class: 'Suporte',
-            player1: 'STG Yoqks',
-            champ1: '',
-            bans1: ['', '', ''],
-            player2: 'Panquequin',
-            champ2: '',
-            bans2: ['', '', ''],
-            winner: 0,
-            form: 0
-        },{
-            id: 2,
-            class: 'Atirador',
-            player1: 'Panquequin',
-            champ1: '',
-            bans1: ['', '', ''],
-            player2: 'STG Yoqks',
-            champ2: '',
-            bans2: ['', '', ''],
-            winner: 0,
-            form: 0
-        },{
             id: 3,
             class: 'Mago',
             player1: 'Xorope',
