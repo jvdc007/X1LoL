@@ -256,90 +256,90 @@ function round3(){
             id: 3,
             class: 'Mago',
             player1: 'Xorope',
-            champ1: '',
-            bans1: ['', '', ''],
+            champ1: 'Orianna!',
+            bans1: ['Karthus', 'Ryze', 'Swain'],
             player2: 'Killleer',
-            champ2: '',
-            bans2: ['', '', ''],
-            winner: 0,
-            form: 0
+            champ2: "Cho'Gath",
+            bans2: ['Lissandra', 'Sylas', 'Zyra'],
+            winner: 1,
+            form: 1
         },{
             id: 4,
             class: 'Lutador',
             player1: 'Killleer',
-            champ1: '',
-            bans1: ['', '', ''],
+            champ1: 'Shyvana',
+            bans1: ['Sett', 'Tryndamere', 'Yasuo'],
             player2: 'Xorope',
-            champ2: '',
-            bans2: ['', '', ''],
-            winner: 0,
-            form: 0
+            champ2: 'Kayle',
+            bans2: ['Jayce', 'Mordekaiser', 'Swain'],
+            winner: 1,
+            form: 1
         },{
             id: 5,
             class: 'Mago',
             player1: 'Iponema',
-            champ1: '',
-            bans1: ['', '', ''],
+            champ1: 'Orianna',
+            bans1: ['Heimerdinger', 'LeBlanc', 'Sylas'],
             player2: 'Kuter',
-            champ2: '',
-            bans2: ['', '', ''],
-            winner: 0,
-            form: 0
+            champ2: 'Orianna!',
+            bans2: ['Veigar', 'Zilean', 'Zoe'],
+            winner: 2,
+            form: 1
         },{
             id: 6,
             class: 'Assassino',
             player1: 'Kuter',
-            champ1: '',
-            bans1: ['', '', ''],
+            champ1: 'Tristana',
+            bans1: ['Rengar', 'Teemo', 'Tryndamere'],
             player2: 'Iponema',
-            champ2: '',
-            bans2: ['', '', ''],
-            winner: 0,
-            form: 0
+            champ2: 'Tristana',
+            bans2: ['Ahri', 'Qiyana', 'Zed'],
+            winner: 2,
+            form: 1
         },{
             id: 7,
             class: 'Suporte',
             player1: 'Ernest',
-            champ1: '',
-            bans1: ['', '', ''],
+            champ1: 'Syndra!',
+            bans1: ['Senna', 'Zilean', 'Zyra'],
             player2: 'nb porém LINDO',
-            champ2: '',
-            bans2: ['', '', ''],
-            winner: 0,
-            form: 0
+            champ2: 'Fiddlestick',
+            bans2: ['Alistar', 'Orianna', 'Zoe'],
+            winner: 1,
+            form: 1
         },{
             id: 8,
             class: 'Tanque',
             player1: 'nb porém LINDO',
-            champ1: '',
-            bans1: ['', '', ''],
+            champ1: 'Urgot',
+            bans1: ['Aatrox', 'Illaoi', 'Malphite'],
             player2: 'Ernest',
-            champ2: '',
-            bans2: ['', '', ''],
-            winner: 0,
-            form: 0
+            champ2: 'Shen',
+            bans2: ['Gnar', 'Sion', 'Trundle'],
+            winner: 2,
+            form: 1
         },{
             id: 9,
             class: 'Assassino',
             player1: 'Camelo Solitário',
-            champ1: '',
-            bans1: ['', '', ''],
+            champ1: 'Tristana',
+            bans1: ['LeBlanc', 'Teemo', 'Tryndamere'],
             player2: 'Kerm of Helm',
-            champ2: '',
-            bans2: ['', '', ''],
-            winner: 0,
-            form: 0
+            champ2: 'Fizz!',
+            bans2: ['Master Yi', 'Riven', 'Yasuo'],
+            winner: 2,
+            form: 1
         },{
             id: 10,
             class: 'Suporte',
             player1: 'Kerm of Helm',
-            champ1: '',
-            bans1: ['', '', ''],
+            champ1: 'Nami',
+            bans1: ['Heimerdinger', 'Morgana', 'Pyke'],
             player2: 'Camelo Solitário',
-            champ2: '',
-            bans2: ['', '', ''],
-            winner: 0,
-            form: 0
+            champ2: 'Syndra!',
+            bans2: ['Tahn Kench', 'Zilean', 'Zyra'],
+            winner: 2,
+            form: 1
         }
     ]
 }
