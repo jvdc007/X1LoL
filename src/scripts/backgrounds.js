@@ -5,7 +5,7 @@ function setBackground(){
     let first = getFirst();
     let champ = first.hist[0];
     champ = champ.replace('!','');
-    body.style.backgroundImage = `url('../imgs/champions/${champ}.jpg')`;
+    body.style.backgroundImage = `url('/imgs/champions/${champ}.jpg')`;
 }
 
 function getFirst(){
