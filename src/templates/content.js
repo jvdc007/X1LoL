@@ -1,7 +1,15 @@
 Vue.component('Content', {
     template:
         `<div id='content'>
-            <Classification/>
-            <InfoPlayers/>
+            <div id='left'>
+                <Classification/>
+                <InfoPlayers/>
+            </div>
+            <div id='center'>
+                <Calendar/>
+            </div>
+            <div id='right'>
+                
+            </div>
         </div>`,
 })

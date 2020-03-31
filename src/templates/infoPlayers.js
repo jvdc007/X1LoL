@@ -1,6 +1,6 @@
 Vue.component('InfoPlayers', {
     template:
-        `<div id='infoPlayers'>
+        `<div id='infoPlayers' class='component'>
             <div id='info' v-if="chosen != ''">
                 <img id='icon' v-bind:src='info.icon' />
                 <div id='mainInfo'>

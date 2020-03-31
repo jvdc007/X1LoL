@@ -1,6 +1,6 @@
 Vue.component('Classification', {
     template:
-        `<div id='classification'>
+        `<div id='classification' class='component'>
             <div id='tables'>
                 <button>Eliminatórias</button>
                 <button>Mata-Mata</button>

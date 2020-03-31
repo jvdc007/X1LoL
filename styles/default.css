@@ -2,28 +2,20 @@
     margin: 0;
     padding: 0;
 }
+html, body, #app{
+    height: 100%;
+    box-sizing: border-box;
+}
 body{
     background-size: cover;
     background-attachment: fixed;
 }
-html, body, #app{
-    height: 100%;
+#app{
+    display: grid;
+    grid-template-rows: 1fr 12fr;
 }
-#header{
-    background-color: black;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    left: 0;
-    right: 0;
-    height: 7%;
-}
-#content{
-    height: 93%;
-    position: fixed;
-    top: 7%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 20px;
+.component{
+    background-image: linear-gradient(45deg, rgba(65,105,225,0.2), rgba(70,130,180,0.2));
+    width: 100%;
+    border-radius: 5px;
 }
