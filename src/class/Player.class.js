@@ -1,7 +1,8 @@
 let rounds = [
     round1(),
     round2(),
-    round3()
+    round3(),
+    round4()
 ]
 
 function player(nick){
