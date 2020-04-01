@@ -3,7 +3,12 @@ let players = createPlayers();
 function setBackground(){
     let body = document.querySelector('body');
     let first = getFirst();
-    let champ = first.hist[0];
+    let champ;
+    if(first.hist[0] != ''){
+        champ = first.hist[0];
+    }else{
+        champ = first.hist[2];
+    }
     champ = champ.replace('!','');
     body.style.backgroundImage = `url('imgs/champions/${champ}.jpg')`;
 }

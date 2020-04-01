@@ -1,3 +1,17 @@
+function createRounds(){
+    return [
+        round1(),
+        round2(),
+        round3(),
+        round4(),
+        round5(),
+        //round6(),
+        //round7(),
+        //round8(),
+        //round9()
+    ]
+}
+
 function round1(){
     return [
         {
@@ -459,6 +473,124 @@ function round4(){
             bans2: ['Syndra', 'Orianna', 'Pyke'],
             winner: 2,
             form: 1
+        }
+    ]
+}
+function round5(){
+    return [
+        {
+            id: 1,
+            class: 'Suporte',
+            player1: 'Panquequin',
+            champ1: '',
+            bans1: ['', '', ''],
+            player2: 'Iponema',
+            champ2: '',
+            bans2: ['', '', ''],
+            winner: 0,
+            form: 0
+        },{
+            id: 2,
+            class: 'Mago',
+            player1: 'Iponema',
+            champ1: '',
+            bans1: ['', '', 'h'],
+            player2: 'Panquequin',
+            champ2: '',
+            bans2: ['', '', ''],
+            winner: 0,
+            form: 0
+        }
+        ,{
+            id: 3,
+            class: 'Tanque',
+            player1: 'Xorope',
+            champ1: '',
+            bans1: ['', '', ''],
+            player2: 'Kerm of Helm',
+            champ2: '',
+            bans2: ['', '', ''],
+            winner: 0,
+            form: 0
+        },{
+            id: 4,
+            class: 'Suporte',
+            player1: 'Kerm of Helm',
+            champ1: '',
+            bans1: ['', '', 'h'],
+            player2: 'Xorope',
+            champ2: '',
+            bans2: ['', '', ''],
+            winner: 0,
+            form: 0
+        }
+        ,{
+            id: 5,
+            class: 'Assassino',
+            player1: 'Killleer',
+            champ1: '',
+            bans1: ['', '', ''],
+            player2: 'Kuter',
+            champ2: '',
+            bans2: ['', '', ''],
+            winner: 0,
+            form: 0
+        },{
+            id: 6,
+            class: 'Atirador',
+            player1: 'Kuter',
+            champ1: '',
+            bans1: ['', '', 'h'],
+            player2: 'Killleer',
+            champ2: '',
+            bans2: ['', '', ''],
+            winner: 0,
+            form: 0
+        }
+        ,{
+            id: 7,
+            class: 'Assassino',
+            player1: 'nb porém LINDO',
+            champ1: '',
+            bans1: ['', '', ''],
+            player2: 'Camelo Solitário',
+            champ2: '',
+            bans2: ['', '', ''],
+            winner: 0,
+            form: 0
+        },{
+            id: 8,
+            class: 'Atirador',
+            player1: 'Camelo Solitário',
+            champ1: '',
+            bans1: ['', '', 'h'],
+            player2: 'nb porém LINDO',
+            champ2: '',
+            bans2: ['', '', ''],
+            winner: 0,
+            form: 0
+        },{
+            id: 9,
+            class: 'Tanque',
+            player1: 'STG Yoqks',
+            champ1: '',
+            bans1: ['', '', ''],
+            player2: 'Ernest',
+            champ2: '',
+            bans2: ['', '', ''],
+            winner: 0,
+            form: 0
+        },{
+            id: 10,
+            class: 'Lutador',
+            player1: 'Ernest',
+            champ1: '',
+            bans1: ['', '', 'h'],
+            player2: 'STG Yoqks',
+            champ2: '',
+            bans2: ['', '', ''],
+            winner: 0,
+            form: 0
         }
     ]
 }

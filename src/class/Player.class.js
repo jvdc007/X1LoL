@@ -1,9 +1,4 @@
-let rounds = [
-    round1(),
-    round2(),
-    round3(),
-    round4()
-]
+let rounds = createRounds();
 
 function player(nick){
     let games = 0;
