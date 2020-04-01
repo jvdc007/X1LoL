@@ -1,9 +1,51 @@
-#calendar{
-
-}
 #calendar .rounds{
-    padding: 15px;
+    padding: 5px;
 }
-#calendar .rounds .games{
-    
+#calendar .rounds #navCalendar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#calendar .rounds #navCalendar button{
+    width: 50px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+#calendar .rounds h3{
+    font-size: 15pt;
+}
+#calendar .rounds #games .games{
+    margin-bottom: 2px;
+    display: grid;
+    grid-template-columns: 10fr 1fr 10fr;
+}
+#calendar .player1, #calendar .player2{
+    display: flex;
+}
+#calendar .rounds #games .games .player2{
+    justify-content: flex-end;
+}
+#calendar .player1 span{
+    margin-left: 5px;
+}
+#calendar .player2 span{
+    margin-right: 5px;
+}
+#calendar .rounds #games .games span.nick{
+    font-size: 15pt;
+}
+#calendar .rounds #games .games div.mold{
+    background-color: rgba(65,105,225);
+    display: flex;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    border-radius: 100%;
+}
+#calendar .rounds #games .games div.moldF{
+    background-image: linear-gradient(45deg, rgb(240, 16, 240), gold);
+}
+#calendar .rounds #games .games img.champs{
+    width: 25px;
+    border-radius: 100%;
 }

@@ -9,7 +9,6 @@ function setBackground(){
     }else{
         champ = first.hist[2];
     }
-    champ = champ.replace('!','');
     body.style.backgroundImage = `url('imgs/champions/${champ}.jpg')`;
 }
 

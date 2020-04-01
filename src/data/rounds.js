@@ -21,10 +21,11 @@ function round1(){
             champ1: 'Thresh',
             bans1: ['Kayle', 'Neeko', 'Zyra'],
             player2: 'STG Yoqks',
-            champ2: 'Senna!',
+            champ2: 'Senna',
             bans2: ['Ashe', 'Heimerdinger', 'Zilean'],
             winner: 2,
-            form: 1
+            form: 1,
+            free: 2
         },{
             id: 2,
             class: 'Assassino',
@@ -35,7 +36,8 @@ function round1(){
             champ2: 'Teemo',
             bans2: ['Malzahar', 'Qiyana', 'Vayne'],
             winner: 1,
-            form: 1
+            form: 1,
+            free: 0
         },{
             id: 3,
             class: 'Lutador',
@@ -46,7 +48,8 @@ function round1(){
             champ2: 'Xin Zhao',
             bans2: ['Riven', 'Sett', 'Wukong'],
             winner: 1,
-            form: 1
+            form: 1,
+            free: 0
         },{
             id: 4,
             class: 'Assassino',
@@ -57,7 +60,8 @@ function round1(){
             champ2: 'Fiora',
             bans2: ['Pantheon', 'Quinn', 'Vayne'],
             winner: 2,
-            form: 1
+            form: 1,
+            free: 0
         },{
             id: 5,
             class: 'Suporte',
@@ -68,7 +72,8 @@ function round1(){
             champ2: 'Senna',
             bans2: ['Ashe', 'Morgana', 'Zyra'],
             winner: 1,
-            form: 1
+            form: 1,
+            free: 0
         },{
             id: 6,
             class: 'Lutador',
@@ -76,10 +81,11 @@ function round1(){
             champ1: 'Sett',
             bans1: ['Lee Sin', 'Mordekaiser', 'Ryze'],
             player2: 'Kuter',
-            champ2: 'Yasuo!',
+            champ2: 'Yasuo',
             bans2: ['Darius', 'Nasus', 'Wukong'],
             winner: 1,
-            form: 1
+            form: 1,
+            free: 2
         },{
             id: 7,
             class: 'Suporte',
@@ -87,10 +93,11 @@ function round1(){
             champ1: 'Zilean',
             bans1: ['Anivia', 'Pyke', 'Zyra'],
             player2: 'Kerm of Helm',
-            champ2: 'Senna!',
+            champ2: 'Senna',
             bans2: ['Heimerdinger', 'Morgana', 'Sona'],
             winner: 1,
-            form: 1
+            form: 1,
+            free: 2
         },{
             id: 8,
             class: 'Lutador',
@@ -101,7 +108,8 @@ function round1(){
             champ2: 'Shyvana',
             bans2: ['Blitzcrank', 'Illaoi', 'Sett'],
             winner: 1,
-            form: 1
+            form: 1,
+            free: 0
         },{
             id: 9,
             class: 'Suporte',
@@ -112,7 +120,8 @@ function round1(){
             champ2: 'Karma',
             bans2: ['Orianna', 'Syndra', 'Zoe'],
             winner: 1,
-            form: 1
+            form: 1,
+            free: 0
         },{
             id: 10,
             class: 'Atirador',
@@ -123,7 +132,8 @@ function round1(){
             champ2: 'Jhin',
             bans2: ['Jayce', 'Vayne', 'Teemo'],
             winner: 2,
-            form: 1
+            form: 1,
+            free: 0
         }
     ]
 }
@@ -139,18 +149,20 @@ function round2(){
             champ2: 'Sett',
             bans2: ['Dr. Mundo', 'Ornn', 'Tryndamere'],
             winner: 2,
-            form: 1
+            form: 1,
+            free: 0
         },{
             id: 2,
             class: 'Assassino',
             player1: 'STG Yoqks',
-            champ1: 'Nocturne!',
+            champ1: 'Nocturne',
             bans1: ['Pyke', 'Tristana', 'Tryndamere'],
             player2: 'Camelo Solitário',
             champ2: 'Master Yi',
             bans2: ['Fizz', 'Shaco', 'Teemo'],
             winner: 1,
-            form: 1
+            form: 1,
+            free: 1
         },{
             id: 3,
             class: 'Tanque',
@@ -158,10 +170,11 @@ function round2(){
             champ1: 'Maokai',
             bans1: ['Olaf', 'Sett', 'Wukong'],
             player2: 'nb porém LINDO',
-            champ2: 'Sion!',
+            champ2: 'Sion',
             bans2: ['Aatrox', 'Illaoi', 'Skarner'],
             winner: 2,
-            form: 2
+            form: 2,
+            free: 2
         },{
             id: 4,
             class: 'Lutador',
@@ -172,18 +185,20 @@ function round2(){
             champ2: 'Darius',
             bans2: ['Renekton', 'Riven', 'Urgot'],
             winner: 2,
-            form: 2
+            form: 2,
+            free: 0
         },{
             id: 5,
             class: 'Suporte',
             player1: 'Ernest',
-            champ1: 'Karma!',
+            champ1: 'Karma',
             bans1: ['Heimerdinger', 'Sona', 'Syndra'],
             player2: 'Panquequin',
             champ2: 'Lux',
             bans2: ['Braum', 'Morgana', 'Pyke'],
             winner: 2,
-            form: 2
+            form: 2,
+            free: 1
         },{
             id: 6,
             class: 'Assassino',
@@ -194,18 +209,20 @@ function round2(){
             champ2: 'Ekko',
             bans2: ['Fiora', 'Quinn', 'Vayne'],
             winner: 2,
-            form: 1
+            form: 1,
+            free: 0
         },{
             id: 7,
             class: 'Assassino',
             player1: 'Kerm of Helm',
-            champ1: 'Nocturne!',
+            champ1: 'Nocturne',
             bans1: ['Fiora', 'Riven', 'Yasuo'],
             player2: 'Killleer',
-            champ2: 'Nocturne!',
+            champ2: 'Nocturne',
             bans2: ['Fizz', 'Tryndamere', 'Vayne'],
             winner: 1,
-            form: 1
+            form: 1,
+            free: 3
         },{
             id: 8,
             class: 'Mago',
@@ -216,7 +233,8 @@ function round2(){
             champ2: 'Maokai',
             bans2: ['Annie', 'Heimerdinger', 'Lux'],
             winner: 2,
-            form: 3
+            form: 3,
+            free: 0
         },{
             id: 9,
             class: 'Atirador',
@@ -224,10 +242,11 @@ function round2(){
             champ1: "Kog'Maw",
             bans1: ['Jayce', 'Kalista', 'Vayne'],
             player2: 'Kuter',
-            champ2: 'Miss Fortune!',
+            champ2: 'Miss Fortune',
             bans2: ['Aphelios', 'Lucian', 'Teemo'],
             winner: 2,
-            form: 3
+            form: 3,
+            free: 2
         },{
             id: 10,
             class: 'Suporte',
@@ -238,7 +257,8 @@ function round2(){
             champ2: 'Orianna',
             bans2: ['Alistar', 'Heimerdinger', 'Kayle'],
             winner: 1,
-            form: 1
+            form: 1,
+            free: 0
         }
     ]
 }
@@ -251,10 +271,11 @@ function round3(){
             champ1: 'Janna',
             bans1: ['Ashe', 'Pyke', 'Zilean'],
             player2: 'Panquequin',
-            champ2: 'Syndra!',
+            champ2: 'Syndra',
             bans2: ['Braum', 'Fiddlesticks', 'Orianna'],
             winner: 2,
-            form: 1
+            form: 1,
+            free: 2
         },{
             id: 2,
             class: 'Atirador',
@@ -262,21 +283,23 @@ function round3(){
             champ1: 'Twitch',
             bans1: ['Draven', "Kog'Maw", 'Lucian'],
             player2: 'STG Yoqks',
-            champ2: 'Xayah!',
+            champ2: 'Xayah',
             bans2: ['Caitlyn', 'Ezreal', 'Tristana'],
             winner: 1,
-            form: 1
+            form: 1,
+            free: 2
         },{
             id: 3,
             class: 'Mago',
             player1: 'Xorope',
-            champ1: 'Orianna!',
+            champ1: 'Orianna',
             bans1: ['Karthus', 'Ryze', 'Swain'],
             player2: 'Killleer',
             champ2: "Cho'Gath",
             bans2: ['Lissandra', 'Sylas', 'Zyra'],
             winner: 1,
-            form: 1
+            form: 1,
+            free: 1
         },{
             id: 4,
             class: 'Lutador',
@@ -287,7 +310,8 @@ function round3(){
             champ2: 'Kayle',
             bans2: ['Jayce', 'Mordekaiser', 'Swain'],
             winner: 1,
-            form: 1
+            form: 1,
+            free: 0
         },{
             id: 5,
             class: 'Mago',
@@ -295,10 +319,11 @@ function round3(){
             champ1: 'Orianna',
             bans1: ['Heimerdinger', 'LeBlanc', 'Sylas'],
             player2: 'Kuter',
-            champ2: 'Orianna!',
+            champ2: 'Orianna',
             bans2: ['Veigar', 'Zilean', 'Zoe'],
             winner: 2,
-            form: 1
+            form: 1,
+            free: 2
         },{
             id: 6,
             class: 'Assassino',
@@ -309,18 +334,20 @@ function round3(){
             champ2: 'Tristana',
             bans2: ['Ahri', 'Qiyana', 'Zed'],
             winner: 2,
-            form: 1
+            form: 1,
+            free: 0
         },{
             id: 7,
             class: 'Suporte',
             player1: 'Ernest',
-            champ1: 'Syndra!',
+            champ1: 'Syndra',
             bans1: ['Senna', 'Zilean', 'Zyra'],
             player2: 'nb porém LINDO',
-            champ2: 'Fiddlestick',
+            champ2: 'Fiddlesticks',
             bans2: ['Alistar', 'Orianna', 'Zoe'],
             winner: 1,
-            form: 1
+            form: 1,
+            free: 1
         },{
             id: 8,
             class: 'Tanque',
@@ -331,7 +358,8 @@ function round3(){
             champ2: 'Shen',
             bans2: ['Gnar', 'Sion', 'Trundle'],
             winner: 2,
-            form: 1
+            form: 1,
+            free: 0
         },{
             id: 9,
             class: 'Assassino',
@@ -339,10 +367,11 @@ function round3(){
             champ1: 'Tristana',
             bans1: ['LeBlanc', 'Teemo', 'Tryndamere'],
             player2: 'Kerm of Helm',
-            champ2: 'Fizz!',
+            champ2: 'Fizz',
             bans2: ['Master Yi', 'Riven', 'Yasuo'],
             winner: 2,
-            form: 1
+            form: 1,
+            free: 2
         },{
             id: 10,
             class: 'Suporte',
@@ -350,10 +379,11 @@ function round3(){
             champ1: 'Nami',
             bans1: ['Heimerdinger', 'Morgana', 'Pyke'],
             player2: 'Camelo Solitário',
-            champ2: 'Syndra!',
+            champ2: 'Syndra',
             bans2: ['Tahn Kench', 'Zilean', 'Zyra'],
             winner: 2,
-            form: 1
+            form: 1,
+            free: 2
         }
     ]
 }
@@ -369,7 +399,8 @@ function round4(){
             champ2: 'Sivir',
             bans2: ['Quinn', 'Teemo', 'Jayce'],
             winner: 1,
-            form: 1
+            form: 1,
+            free: 0
         },{
             id: 2,
             class: 'Tanque',
@@ -377,10 +408,11 @@ function round4(){
             champ1: 'Sion',
             bans1: ['Urgot', 'Gnar', 'Tahn Kench'],
             player2: 'STG Yoqks',
-            champ2: 'Shen!',
+            champ2: 'Shen',
             bans2: ['Dr. Mundo', 'Camille', 'Sett'],
             winner: 2,
-            form: 1
+            form: 1,
+            free: 2
         },
         {
             id: 3,
@@ -389,10 +421,11 @@ function round4(){
             champ1: 'Malphite',
             bans1: ['Darius', 'Illaoi', 'Sett'],
             player2: 'Panquequin',
-            champ2: 'Shen!',
+            champ2: 'Shen',
             bans2: ['Braum', 'Camille', 'Yorick'],
             winner: 1,
-            form: 1
+            form: 1,
+            free: 2
         },{
             id: 4,
             class: 'Assassino',
@@ -403,7 +436,8 @@ function round4(){
             champ2: 'LeBlanc',
             bans2: ['Pyke', 'Teemo', 'Tryndamere'],
             winner: 2,
-            form: 1
+            form: 1,
+            free: 0
         },
         {
             id: 5,
@@ -415,7 +449,8 @@ function round4(){
             champ2: 'Nami',
             bans2: ['LeBlanc', 'Katarina', 'Ezreal'],
             winner: 1,
-            form: 1
+            form: 1,
+            free: 0
         },{
             id: 6,
             class: 'Lutador',
@@ -423,22 +458,24 @@ function round4(){
             champ1: 'Tryndamere',
             bans1: ['Rumble', 'Ekko', 'Yasuo'],
             player2: 'Ernest',
-            champ2: 'Trundle!',
+            champ2: 'Trundle',
             bans2: ['Sett', 'Kled', 'Fizz'],
             winner: 2,
-            form: 1
+            form: 1,
+            free: 2
         },
         {
             id: 7,
             class: 'Lutador',
             player1: 'Camelo Solitário',
-            champ1: 'Trundle!',
+            champ1: 'Trundle',
             bans1: ['Jayce', 'Gnar', 'Ornn'],
             player2: 'Iponema',
-            champ2: 'Trundle!',
+            champ2: 'Trundle',
             bans2: ['Tryndamere', 'Wukong', 'Olaf'],
             winner: 2,
-            form: 3
+            form: 3,
+            free: 3
         },{
             id: 8,
             class: 'Mago',
@@ -449,7 +486,8 @@ function round4(){
             champ2: 'Evelynn',
             bans2: ['Veigar', 'Heimerdinger', 'Karthus'],
             winner: 2,
-            form: 1
+            form: 1,
+            free: 0
         },
         {
             id: 9,
@@ -461,7 +499,8 @@ function round4(){
             champ2: 'Jayce',
             bans2: ['Teemo', 'Miss Fortune', 'Kindred'],
             winner: 2,
-            form: 1
+            form: 1,
+            free: 0
         },{
             id: 10,
             class: 'Suporte',
@@ -469,10 +508,11 @@ function round4(){
             champ1: 'Fiddlesticks',
             bans1: ['Kayle', 'Zyra', 'Taliyah'],
             player2: 'nb porém LINDO',
-            champ2: 'Zilean!',
+            champ2: 'Zilean',
             bans2: ['Syndra', 'Orianna', 'Pyke'],
             winner: 2,
-            form: 1
+            form: 1,
+            free: 2
         }
     ]
 }
