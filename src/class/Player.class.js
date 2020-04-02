@@ -4,7 +4,6 @@ function player(nick){
     let games = 0;
     let wins = 0;
     let ks = 0;
-    let pt = 0;
     let kills = 0;
     let farm = 0;
     let towers = 0;
@@ -18,7 +17,6 @@ function player(nick){
                 gameAnt = game;
             }else{
                 ks += getKs(game, gameAnt, nick);
-                pt += getPt(game, gameAnt, nick);
             }
             kills += getKills(game, nick);
             farm += getFarm(game, nick);
@@ -26,19 +24,18 @@ function player(nick){
             hist.unshift(getChamp(game, nick));
         });
     });
-    pt = getPt(wins, ks);
-    hist = setHist(hist);
     return {
         nick: nick,
         icon: getIcon(nick),
         games: games,
         wins: wins,
         ks: ks,
-        pt: pt,
+        pt: getPt(wins, ks),
         kills: kills,
         farm: farm,
         towers: towers,
-        hist: hist
+        mmr: getMmr(kills, farm, towers),
+        hist: setHist(hist)
     }
 }
 
@@ -109,6 +106,10 @@ function getTowers(game, nick){
     }else{
         return 0;
     }
+}
+
+function getMmr(k, f, t){
+    return ((k*9)+(f*3)+(t));
 }
 
 function getChamp(game, nick){
