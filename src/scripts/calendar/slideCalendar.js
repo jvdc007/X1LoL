@@ -1,9 +1,28 @@
-let lastRound = createRounds().length;
-
 function initCalendar(){
+    let lastRound = createRounds().length;
     for(let i=1; i<lastRound; i++){
         let pastRound = document.querySelector('#calendar #round'+i);
         pastRound.style.display = 'none';
+    }
+}
+
+function backRound(act){
+    console.log(act);
+    if(act > 1){
+        setCalendar(act, -1);
+        return act-1;
+    }else{
+        return act;
+    }
+}
+
+function nextRound(act, tam){
+    console.log(act);
+    if(act < tam){
+        setCalendar(act, 1);
+        return act+1;
+    }else{
+        return act;
     }
 }
 

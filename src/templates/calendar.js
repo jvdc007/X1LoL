@@ -7,18 +7,28 @@ Vue.component('Calendar', {
                     <h3>Rodada {{index+1}}</h3>
                     <button @click='next'>-></button>
                 </div>
-                <div id='games'>
+                <div id='games'> 
                     <div class='games' v-for='game in round'>
-                        <div class='player1'>
-                            <div v-bind:class='mold1(game.free)' v-if="game.champ1 != ''">
+                        <div v-bind:class='games(game.id, 1)'>
+                            <div v-bind:class='mold(game.free, 1)' v-if="game.champ1 != ''">
                                 <img class='champs' v-if="game.champ1 != ''" v-bind:src="'imgs/champIcons/'+game.champ1+'.png'">
                             </div>
-                            <span class='nick'>{{game.player1}}</span> 
+                            <div>
+                                <span class='nick'>{{game.player1}}</span>
+                                <div class='bans'>
+                                    <img class='bansImg' v-for='ban in game.bans1' v-bind:src="'imgs/champIcons/'+ban+'.png'"/>
+                                </div>
+                            </div> 
                         </div>
-                        <span class='vs'>vs</span>
-                        <div class='player2'>
+                        <span v-bind:class='games(game.id, 0)'>vs</span>
+                        <div v-bind:class='games(game.id, 2)'>
+                        <div>
                             <span class='nick'>{{game.player2}}</span>
-                            <div v-bind:class='mold2(game.free)' v-if="game.champ2 != ''">
+                            <div class='bans bansPlayer2'>
+                                <img class='bansImg' v-for='ban in game.bans2' v-bind:src="'imgs/champIcons/'+ban+'.png'"/>
+                            </div>
+                        </div>
+                            <div v-bind:class='mold(game.free, 2)' v-if="game.champ2 != ''">
                                 <img class='champs' v-if="game.champ2 != ''" v-bind:src="'imgs/champIcons/'+game.champ2+'.png'">
                             </div>
                         </div>
@@ -34,34 +44,16 @@ Vue.component('Calendar', {
     },
     methods: {
         back(){
-            if(this.active > 1){
-                setCalendar(this.active, -1);
-                this.active--
-            }else{
-                return;
-            }
+            this.active = backRound(this.active);
         },
         next(){
-            if(this.active < this.rounds.length){
-                setCalendar(this.active, 1);
-                this.active++
-            }else{
-                return;
-            }
+            this.active = nextRound(this.active, this.rounds.length);
         },
-        mold1(free){
-            if(free == 3 || free == 1){
-                return 'mold moldF';
-            }else{
-                return 'mold';
-            }
+        mold(free, n){
+            return moldFree(free, n);
         },
-        mold2(free){
-            if(free == 3 || free == 2){
-                return 'mold moldF';
-            }else{
-                return 'mold';
-            }
+        games(id, player){
+            return gamesInRound(id, player);
         }
     },
     mounted(){
