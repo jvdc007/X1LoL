@@ -14,7 +14,7 @@ Vue.component('Calendar', {
                                 <img class='champs' v-if="game.champ1 != ''" v-bind:src="'imgs/champIcons/'+game.champ1+'.png'">
                             </div>
                             <div>
-                                <span class='nick'>{{game.player1}}</span>
+                                <span v-bind:class='result(game.player1, game)'>{{game.player1}}</span>
                                 <div class='bans'>
                                     <img class='bansImg' v-for='ban in game.bans1' v-bind:src="'imgs/champIcons/'+ban+'.png'"/>
                                 </div>
@@ -22,12 +22,12 @@ Vue.component('Calendar', {
                         </div>
                         <span v-bind:class='games(game.id, 0)'>vs</span>
                         <div v-bind:class='games(game.id, 2)'>
-                        <div>
-                            <span class='nick'>{{game.player2}}</span>
-                            <div class='bans bansPlayer2'>
-                                <img class='bansImg' v-for='ban in game.bans2' v-bind:src="'imgs/champIcons/'+ban+'.png'"/>
+                            <div>
+                                <span v-bind:class='result(game.player2, game)'>{{game.player2}}</span>
+                                <div class='bans bansPlayer2'>
+                                    <img class='bansImg' v-for='ban in game.bans2' v-bind:src="'imgs/champIcons/'+ban+'.png'"/>
+                                </div>
                             </div>
-                        </div>
                             <div v-bind:class='mold(game.free, 2)' v-if="game.champ2 != ''">
                                 <img class='champs' v-if="game.champ2 != ''" v-bind:src="'imgs/champIcons/'+game.champ2+'.png'">
                             </div>
@@ -54,6 +54,9 @@ Vue.component('Calendar', {
         },
         games(id, player){
             return gamesInRound(id, player);
+        },
+        result(player, game){
+            return gameResult(player, game); 
         }
     },
     mounted(){

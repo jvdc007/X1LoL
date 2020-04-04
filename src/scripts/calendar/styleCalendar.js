@@ -19,3 +19,12 @@ function gamesInRound(id, pl){
         return `player${pl}`;
     }
 }
+
+function gameResult(player, game){
+    if((player == game.player1 && game.winner == 2) || (player == game.player2 && game.winner == 1)){
+        return 'nick loser';
+    }
+    else{
+        return 'nick';
+    }
+}

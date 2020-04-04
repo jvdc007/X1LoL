@@ -54,7 +54,11 @@
     border-top: 1px solid rgba(65,105,225, 0.5);
 }
 #calendar .gamesInRound{
+    padding-bottom: 2px;
     border-bottom: 1px solid rgba(65,105,225, 0.5);
+}
+#calendar .vs{
+    /* border: 1px solid red; */
 }
 #calendar .bans{
     display: flex;
@@ -68,4 +72,7 @@
     height: 15px;
     border-radius: 100%;
     margin: 0 1px;
+}
+#calendar .loser{
+    color: tomato;
 }
