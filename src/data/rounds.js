@@ -7,8 +7,8 @@ function createRounds(){
         round5(),
         round6(),
         round7(),
-        //round8(),
-        //round9()
+        round8(),
+        round9()
     ]
 }
 
@@ -134,6 +134,14 @@ function round1(){
             winner: 2,
             form: 1,
             free: 0
+        },
+        {
+            ass: 'Akali',
+            sup: 'Senna',
+            lut: 'Yasuo',
+            tan: 'Singed',
+            mag: 'Janna',
+            ati: 'Kennen'
         }
     ]
 }
@@ -259,6 +267,14 @@ function round2(){
             winner: 1,
             form: 1,
             free: 0
+        },
+        {
+            ass: 'Nocturne',
+            sup: 'Karma',
+            lut: 'Jarvan IV',
+            tan: 'Sion',
+            mag: 'Amumu',
+            ati: 'Miss Fortune'
         }
     ]
 }
@@ -384,6 +400,14 @@ function round3(){
             winner: 2,
             form: 1,
             free: 2
+        },
+        {
+            ass: 'Fizz',
+            sup: 'Syndra',
+            lut: 'Singed',
+            tan: 'Skarner',
+            mag: 'Orianna',
+            ati: 'Xayah'
         }
     ]
 }
@@ -513,6 +537,14 @@ function round4(){
             winner: 2,
             form: 1,
             free: 2
+        },
+        {
+            ass: 'Nidalee',
+            sup: 'Zilean',
+            lut: 'Trundle',
+            tan: 'Shen',
+            mag: 'Zoe',
+            ati: 'Vayne'
         }
     ]
 }
@@ -642,6 +674,14 @@ function round5(){
             winner: 2,
             form: 1,
             free: 0
+        },
+        {
+            ass: 'Pyke',
+            sup: 'Kayle',
+            lut: 'Master Yi',
+            tan: 'Gnar',
+            mag: 'Sylas',
+            ati: 'Azir'
         }
     ]
 }
@@ -753,7 +793,7 @@ function round6(){
             player1: 'nb porém LINDO',
             champ1: 'Jax',
             bans1: ['Zed', 'Yasuo', 'Sylas'],
-            player2: 'Panquiquin',
+            player2: 'Panquequin',
             champ2: 'Evelynn',
             bans2: ['LeBlanc', 'Shaco', 'Lee Sin'],
             winner: 2,
@@ -762,7 +802,7 @@ function round6(){
         },{
             id: 10,
             class: 'Mago',
-            player1: 'Panquiquin',
+            player1: 'Panquequin',
             champ1: 'Syndra',
             bans1: ['Anivia', 'Evelynn', 'Kassadin'],
             player2: 'nb porém LINDO',
@@ -771,6 +811,14 @@ function round6(){
             winner: 1,
             form: 2,
             free: 1
+        },
+        {
+            ass: 'Fiora',
+            sup: 'Alistar',
+            lut: 'Mordekaiser',
+            tan: 'Maokai',
+            mag: 'Syndra',
+            ati: 'Sivir'
         }
     ]
 }
@@ -900,6 +948,288 @@ function round7(){
             winner: 2,
             form: 1,
             free: 1
+        },
+        {
+            ass: 'Malzahar',
+            sup: 'Ashe',
+            lut: 'Darius',
+            tan: 'Urgot',
+            mag: 'Ryze',
+            ati: 'Caitlyn'
+        }
+    ]
+}
+function round8(){
+    return [
+        {
+            id: 1,
+            class: 'Lutador',
+            player1: 'nb porém LINDO',
+            champ1: 'Wukong',
+            bans1: ['Blitzcrank', 'Yasuo', 'Sett'],
+            player2: 'Kuter',
+            champ2: 'Renekton',
+            bans2: ['Taric', 'Singed', 'Tryndamere'],
+            winner: 2,
+            form: 1,
+            free: 2
+        },{
+            id: 2,
+            class: 'Assassino',
+            player1: 'Kuter',
+            champ1: 'Pantheon',
+            bans1: ['Tristana', 'Twitch', 'Pyke'],
+            player2: 'nb porém LINDO',
+            champ2: 'Ahri',
+            bans2: ['Yasuo', 'Zed', 'Sylas'],
+            winner: 1,
+            form: 1,
+            free: 0
+        },
+        {
+            id: 3,
+            class: 'Tanque',
+            player1: 'Killleer',
+            champ1: 'Wukong',
+            bans1: ['Urgot', 'Gnar', 'Kled'],
+            player2: 'Panquequin',
+            champ2: 'Nunu',
+            bans2: ['Illaoi', 'Sett', 'Braum'],
+            winner: 1,
+            form: 3,
+            free: 0
+        },{
+            id: 4,
+            class: 'Lutador',
+            player1: 'Panquequin',
+            champ1: 'Renekton',
+            bans1: ['Ekko', 'Yorick', 'Garen'],
+            player2: 'Killleer',
+            champ2: 'Nautilus',
+            bans2: ['Tryndamere', 'Fizz', 'Darius'],
+            winner: 1,
+            form: 1,
+            free: 1
+        },
+        {
+            id: 5,
+            class: 'Atirador',
+            player1: 'Xorope',
+            champ1: 'Graves',
+            bans1: ['Jayce', 'Varus', 'Sivir'],
+            player2: 'Iponema',
+            champ2: 'Jhin',
+            bans2: ['Caitlyn', 'Kalista', 'Kindred'],
+            winner: 1,
+            form: 1,
+            free: 2
+        },{
+            id: 6,
+            class: 'Suporte',
+            player1: 'Iponema',
+            champ1: 'Leona',
+            bans1: ['Zyra', 'Heimerdinger', 'Lux'],
+            player2: 'Xorope',
+            champ2: 'Anivia',
+            bans2: ['Alistar', 'Zoe', 'Kayle'],
+            winner: 2,
+            form: 1,
+            free: 0
+        },
+        {
+            id: 7,
+            class: 'Atirador',
+            player1: 'Ernest',
+            champ1: 'Tristana',
+            bans1: ['Caitlyn', 'Quinn', 'Vayne'],
+            player2: 'Camelo Solitário',
+            champ2: 'Tristana',
+            bans2: ['Teemo', 'Kalista', 'Jayce'],
+            winner: 1,
+            form: 1,
+            free: 0
+        },{
+            id: 8,
+            class: 'Lutador',
+            player1: 'Camelo Solitário',
+            champ1: 'Renekton',
+            bans1: ['Ryze', 'Ornn', 'Rumble'],
+            player2: 'Ernest',
+            champ2: 'Renekton',
+            bans2: ['Sett', 'Jax', 'Yorick'],
+            winner: 2,
+            form: 1,
+            free: 3
+        },
+        {
+            id: 9,
+            class: 'Assassino',
+            player1: 'Kerm of Helm',
+            champ1: 'Master Yi',
+            bans1: ['Yasuo', 'Tristana', 'Zed'],
+            player2: 'STG Yoqks',
+            champ2: 'Vi',
+            bans2: ['Shaco', 'Tryndamere', 'Fizz'],
+            winner: 2,
+            form: 1,
+            free: 1
+        },{
+            id: 10,
+            class: 'Suporte',
+            player1: 'STG Yoqks',
+            champ1: 'Senna',
+            bans1: ['Heimerdinger', 'Lux', 'Zyra'],
+            player2: 'Kerm of Helm',
+            champ2: 'Neeko',
+            bans2: ['Ivern', 'Taliyah', 'Pyke'],
+            winner: 2,
+            form: 1,
+            free: 0
+        },
+        {
+            ass: 'Master Yi',
+            sup: 'Taric',
+            lut: 'Renekton',
+            tan: 'Sejuani',
+            mag: 'Kennen',
+            ati: 'Jhin'
+        }
+    ]
+}
+function round9(){
+    return [
+        {
+            id: 1,
+            class: 'Suporte',
+            player1: 'Camelo Solitário',
+            champ1: 'Alistar',
+            bans1: ['Zyra', 'Heimerdinger', 'Syndra'],
+            player2: 'Killleer',
+            champ2: 'Janna',
+            bans2: ['Senna', 'Pyke', 'Kayle'],
+            winner: 1,
+            form: 1,
+            free: 0
+        },{
+            id: 2,
+            class: 'Tanque',
+            player1: 'Killleer',
+            champ1: 'Jarvan IV',
+            bans1: ['Urgot', 'Wukong', 'Renekton'],
+            player2: 'Camelo Solitário',
+            champ2: 'Jarvan IV',
+            bans2: ['Zac', 'Darius', 'Gnar'],
+            winner: 1,
+            form: 1,
+            free: 3
+        },
+        {
+            id: 3,
+            class: 'Assassino',
+            player1: 'Panquequin',
+            champ1: 'Ahri',
+            bans1: ['Ekko', 'LeBlanc', 'Zed'],
+            player2: 'Xorope',
+            champ2: 'Evelynn',
+            bans2: ['Yasuo', 'Quinn', 'Qiyana'],
+            winner: 1,
+            form: 1,
+            free: 0
+        },{
+            id: 4,
+            class: 'Mago',
+            player1: 'Xorope',
+            champ1: 'Amumu',
+            bans1: ['Lissandra', 'Vladimir', 'Syndra'],
+            player2: 'Panquequin',
+            champ2: 'Nami',
+            bans2: ['LeBlanc', 'Ziggs', 'Orianna'],
+            winner: 2,
+            form: 1,
+            free: 0
+        },
+        {
+            id: 5,
+            class: 'Mago',
+            player1: 'Ernest',
+            champ1: 'Xerath',
+            bans1: ['LeBlanc', 'Heimerdinger', 'Zyra'],
+            player2: 'Kuter',
+            champ2: 'Cassiopeia',
+            bans2: ['Sylas', 'Ivern', 'Aurelion Sol'],
+            winner: 1,
+            form: 1,
+            free: 0
+        },{
+            id: 6,
+            class: 'Atirador',
+            player1: 'Kuter',
+            champ1: 'Miss Fortune',
+            bans1: ['Draven', 'Kalista', 'Jayce'],
+            player2: 'Ernest',
+            champ2: 'Corki',
+            bans2: ['Caitlyn', 'Teemo', 'Quinn'],
+            winner: 2,
+            form: 1,
+            free: 0
+        },
+        {
+            id: 7,
+            class: 'Tanque',
+            player1: 'Iponema',
+            champ1: 'Olaf',
+            bans1: ['Ornn', 'Sett', 'Wukong'],
+            player2: 'Kerm of Helm',
+            champ2: 'Kled',
+            bans2: ['Camille', 'Illaoi', 'Singed'],
+            winner: 2,
+            form: 1,
+            free: 0
+        },{
+            id: 8,
+            class: 'Atirador',
+            player1: 'Kerm of Helm',
+            champ1: 'Ashe',
+            bans1: ['Vayne', 'Kalista', 'Xayah'],
+            player2: 'Iponema',
+            champ2: 'Jhin',
+            bans2: ['Aphelios', 'Teemo', 'Graves'],
+            winner: 2,
+            form: 1,
+            free: 1
+        },
+        {
+            id: 9,
+            class: 'Tanque',
+            player1: 'nb porém LINDO',
+            champ1: 'Dr. Mundo',
+            bans1: ['Blitzcrank', 'Sett', 'Illaoi'],
+            player2: 'STG Yoqks',
+            champ2: 'Jarvan IV',
+            bans2: ["Cho'Gath", 'Trundle', 'Darius'],
+            winner: 2,
+            form: 1,
+            free: 2
+        },{
+            id: 10,
+            class: 'Atirador',
+            player1: 'STG Yoqks',
+            champ1: 'Varus',
+            bans1: ['Caitlyn', 'Miss Fortune', 'Teemo'],
+            player2: 'nb porém LINDO',
+            champ2: 'Sivir',
+            bans2: ['Jayce', 'Twitch', 'Jinx'],
+            winner: 1,
+            form: 1,
+            free: 0
+        },
+        {
+            ass: 'Talon',
+            sup: 'Soraka',
+            lut: 'Zac',
+            tan: 'Jarvan IV',
+            mag: 'Anivia',
+            ati: 'Ashe'
         }
     ]
 }

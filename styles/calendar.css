@@ -73,6 +73,6 @@
     border-radius: 100%;
     margin: 0 1px;
 }
-#calendar .loser{
-    color: tomato;
+#calendar .winner{
+    color: rgb(76, 212, 76);
 }

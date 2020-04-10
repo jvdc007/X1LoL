@@ -21,8 +21,8 @@ function gamesInRound(id, pl){
 }
 
 function gameResult(player, game){
-    if((player == game.player1 && game.winner == 2) || (player == game.player2 && game.winner == 1)){
-        return 'nick loser';
+    if((player == game.player1 && game.winner == 1) || (player == game.player2 && game.winner == 2)){
+        return 'nick winner';
     }
     else{
         return 'nick';

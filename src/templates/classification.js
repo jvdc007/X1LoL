@@ -31,11 +31,7 @@ Vue.component('Classification', {
     },
     methods: {
         ordenation(){
-            this.players.sort((a, b) => {
-                if(a.pt < b.pt) return 1;
-                if(a.pt > b.pt) return -1;
-                return 0;
-            })
+            order(this.players);
         },
         background(){
             setBackground();
