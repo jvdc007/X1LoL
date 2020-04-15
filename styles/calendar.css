@@ -52,6 +52,7 @@
 }
 #calendar .game1{
     border-top: 1px solid rgba(65,105,225, 0.5);
+    padding-top: 5px;
 }
 #calendar .gamesInRound{
     padding-bottom: 2px;
@@ -75,4 +76,26 @@
 }
 #calendar .winner{
     color: rgb(76, 212, 76);
+}
+#calendar .free{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+#calendar .champFree{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2px;
+}
+#calendar .imgFree{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+#calendar .classFree{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-top: 3px;
 }

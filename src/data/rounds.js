@@ -8,7 +8,16 @@ function createRounds(){
         round6(),
         round7(),
         round8(),
-        round9()
+        round9(),
+        round10(),
+        //round11(),
+        //round12(),
+        //round13(),
+        //round14(),
+        //round15(),
+        //round16(),
+        //round17(),
+        //round18()
     ]
 }
 
@@ -136,6 +145,7 @@ function round1(){
             free: 0
         },
         {
+            id: 11,
             ass: 'Akali',
             sup: 'Senna',
             lut: 'Yasuo',
@@ -269,6 +279,7 @@ function round2(){
             free: 0
         },
         {
+            id: 11,
             ass: 'Nocturne',
             sup: 'Karma',
             lut: 'Jarvan IV',
@@ -402,6 +413,7 @@ function round3(){
             free: 2
         },
         {
+            id: 11,
             ass: 'Fizz',
             sup: 'Syndra',
             lut: 'Singed',
@@ -539,6 +551,7 @@ function round4(){
             free: 2
         },
         {
+            id: 11,
             ass: 'Nidalee',
             sup: 'Zilean',
             lut: 'Trundle',
@@ -676,6 +689,7 @@ function round5(){
             free: 0
         },
         {
+            id: 11,
             ass: 'Pyke',
             sup: 'Kayle',
             lut: 'Master Yi',
@@ -813,6 +827,7 @@ function round6(){
             free: 1
         },
         {
+            id: 11,
             ass: 'Fiora',
             sup: 'Alistar',
             lut: 'Mordekaiser',
@@ -950,6 +965,7 @@ function round7(){
             free: 1
         },
         {
+            id: 11,
             ass: 'Malzahar',
             sup: 'Ashe',
             lut: 'Darius',
@@ -1087,6 +1103,7 @@ function round8(){
             free: 0
         },
         {
+            id: 11,
             ass: 'Master Yi',
             sup: 'Taric',
             lut: 'Renekton',
@@ -1224,12 +1241,151 @@ function round9(){
             free: 0
         },
         {
+            id: 11,
             ass: 'Talon',
             sup: 'Soraka',
             lut: 'Zac',
             tan: 'Jarvan IV',
             mag: 'Anivia',
             ati: 'Ashe'
+        }
+    ]
+}
+function round10(){
+    return [
+        {
+            id: 1,
+            class: 'Assassino',
+            player1: 'nb porém LINDO',
+            champ1: '',
+            bans1: [''],
+            player2: 'Xorope',
+            champ2: '',
+            bans2: [''],
+            winner: 0,
+            form: 0,
+            free: 0
+        },{
+            id: 2,
+            class: 'Mago',
+            player1: 'Xorope',
+            champ1: '',
+            bans1: [''],
+            player2: 'nb porém LINDO',
+            champ2: '',
+            bans2: [''],
+            winner: 0,
+            form: 0,
+            free: 0
+        },
+        {
+            id: 3,
+            class: 'Lutador',
+            player1: 'Camelo Solitário',
+            champ1: 'Olaf',
+            bans1: ['Ryze', 'Gnar', 'Tryndamere'],
+            player2: 'Kuter',
+            champ2: 'Olaf',
+            bans2: ['Sett', 'Trundle', 'Garen'],
+            winner: 1,
+            form: 1,
+            free: 3
+        },{
+            id: 4,
+            class: 'Atirador',
+            player1: 'Kuter',
+            champ1: "Kai'Sa",
+            bans1: ['Jayce', 'Aphelios', 'Quinn'],
+            player2: 'Camelo Solitário',
+            champ2: 'Tristana',
+            bans2: ['Kalista', 'Caitlyn', 'Teemo'],
+            winner: 2,
+            form: 1,
+            free: 0
+        },
+        {
+            id: 5,
+            class: 'Assassino',
+            player1: 'Iponema',
+            champ1: 'Yasuo',
+            bans1: ['Zed', 'Ekko', 'Teemo'],
+            player2: 'Ernest',
+            champ2: 'Katarina',
+            bans2: ['Fiora', 'Tristana', 'Nocturne'],
+            winner: 1,
+            form: 1,
+            free: 0
+        },{
+            id: 6,
+            class: 'Lutador',
+            player1: 'Ernest',
+            champ1: 'Blitzcrank',
+            bans1: ['Kled', 'Jax', 'Trundle'],
+            player2: 'Iponema',
+            champ2: 'Garen',
+            bans2: ['Sett', 'Wukong', 'Ekko'],
+            winner: 2,
+            form: 2,
+            free: 0
+        },
+        {
+            id: 7,
+            class: 'Tanque',
+            player1: 'Kerm of Helm',
+            champ1: '',
+            bans1: [''],
+            player2: 'Panquequin',
+            champ2: '',
+            bans2: [''],
+            winner: 0,
+            form: 0,
+            free: 0
+        },{
+            id: 8,
+            class: 'Suporte',
+            player1: 'Panquequin',
+            champ1: '',
+            bans1: [''],
+            player2: 'Kerm of Helm',
+            champ2: '',
+            bans2: [''],
+            winner: 0,
+            form: 0,
+            free: 0
+        },
+        {
+            id: 9,
+            class: 'Lutador',
+            player1: 'STG Yoqks',
+            champ1: 'Olaf',
+            bans1: ['Sett', 'Darius', 'Renekton'],
+            player2: 'Killleer',
+            champ2: 'Olaf',
+            bans2: ['Tryndamere', 'Kayle', 'Kled'],
+            winner: 1,
+            form: 1,
+            free: 3
+        },{
+            id: 10,
+            class: 'Assassino',
+            player1: 'Killleer',
+            champ1: 'Fizz',
+            bans1: ['Irelia', 'Teemo', 'Quinn'],
+            player2: 'STG Yoqks',
+            champ2: 'Evelynn',
+            bans2: ['Ekko', 'Vi', 'Jax'],
+            winner: 2,
+            form: 1,
+            free: 0
+        },
+        {
+            id: 11,
+            ass: 'Master Yi',
+            sup: 'Braum',
+            lut: 'Olaf',
+            tan: 'Skarner',
+            mag: 'Orianna',
+            ati: 'Graves'
         }
     ]
 }

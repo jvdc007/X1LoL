@@ -8,7 +8,7 @@ Vue.component('Calendar', {
                     <button @click='next'>-></button>
                 </div>
                 <div id='games'> 
-                    <div class='games' v-for='game in round'>
+                    <div class='games' v-for='game in round' v-if='game.id != 11'>
                         <div v-bind:class='games(game.id, 1)'>
                             <div v-bind:class='mold(game.free, 1)' v-if="game.champ1 != ''">
                                 <img class='champs' v-if="game.champ1 != ''" v-bind:src="'imgs/champIcons/'+game.champ1+'.png'">
@@ -31,6 +31,32 @@ Vue.component('Calendar', {
                             <div v-bind:class='mold(game.free, 2)' v-if="game.champ2 != ''">
                                 <img class='champs' v-if="game.champ2 != ''" v-bind:src="'imgs/champIcons/'+game.champ2+'.png'">
                             </div>
+                        </div>
+                    </div>
+                    <div class='free' v-for='game in round' v-if='game.id == 11'>
+                        <div class='champFree'>
+                            <img class='imgFree' v-bind:src="'imgs/champIcons/'+game.ass+'.png'"/>
+                            <img class='classFree' src='imgs/icons/ass.jpg'>
+                        </div>
+                        <div class='champFree'>
+                            <img class='imgFree' v-bind:src="'imgs/champIcons/'+game.ati+'.png'"/>
+                            <img class='classFree' src='imgs/icons/ati.jpg'>
+                        </div>
+                        <div class='champFree'>
+                            <img class='imgFree' v-bind:src="'imgs/champIcons/'+game.lut+'.png'"/>
+                            <img class='classFree' src='imgs/icons/lut.jpg'>
+                        </div>
+                        <div class='champFree'>
+                            <img class='imgFree' v-bind:src="'imgs/champIcons/'+game.mag+'.png'"/>
+                            <img class='classFree' src='imgs/icons/mag.jpg'>
+                        </div>
+                        <div class='champFree'>
+                            <img class='imgFree' v-bind:src="'imgs/champIcons/'+game.sup+'.png'"/>
+                            <img class='classFree' src='imgs/icons/sup.jpg'>
+                        </div>
+                        <div class='champFree'>
+                            <img class='imgFree' v-bind:src="'imgs/champIcons/'+game.tan+'.png'"/>
+                            <img class='classFree' src='imgs/icons/tan.jpg'>
                         </div>
                     </div>
                 </div>
