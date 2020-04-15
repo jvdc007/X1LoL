@@ -10,7 +10,7 @@ function createRounds(){
         round8(),
         round9(),
         round10(),
-        //round11(),
+        round11(),
         //round12(),
         //round13(),
         //round14(),
@@ -1332,25 +1332,25 @@ function round10(){
             id: 7,
             class: 'Tanque',
             player1: 'Kerm of Helm',
-            champ1: '',
-            bans1: [''],
+            champ1: 'Amumu',
+            bans1: ['Sett', 'Illaoi','Singed'],
             player2: 'Panquequin',
-            champ2: '',
-            bans2: [''],
-            winner: 0,
-            form: 0,
+            champ2: 'Renekton',
+            bans2: ['Braum', 'Yorick', 'Camille'],
+            winner: 2,
+            form: 1,
             free: 0
         },{
             id: 8,
             class: 'Suporte',
             player1: 'Panquequin',
-            champ1: '',
-            bans1: [''],
+            champ1: 'Janna',
+            bans1: ['Anivia', 'Ivern', 'Soraka'],
             player2: 'Kerm of Helm',
-            champ2: '',
-            bans2: [''],
-            winner: 0,
-            form: 0,
+            champ2: 'Neeko',
+            bans2: ['Taliyah', 'Pyke', 'Lux'],
+            winner: 2,
+            form: 1,
             free: 0
         },
         {
@@ -1386,6 +1386,144 @@ function round10(){
             tan: 'Skarner',
             mag: 'Orianna',
             ati: 'Graves'
+        }
+    ]
+}
+function round11(){
+    return [
+        {
+            id: 1,
+            class: 'Tanque',
+            player1: 'nb porém LINDO',
+            champ1: '',
+            bans1: [''],
+            player2: 'Iponema',
+            champ2: '',
+            bans2: [''],
+            winner: 0,
+            form: 0,
+            free: 0
+        },{
+            id: 2,
+            class: 'Assassino',
+            player1: 'Iponema',
+            champ1: '',
+            bans1: [''],
+            player2: 'nb porém LINDO',
+            champ2: '',
+            bans2: [''],
+            winner: 0,
+            form: 0,
+            free: 0
+        },
+        {
+            id: 3,
+            class: 'Suporte',
+            player1: 'Kuter',
+            champ1: '',
+            bans1: [''],
+            player2: 'Xorope',
+            champ2: '',
+            bans2: [''],
+            winner: 0,
+            form: 0,
+            free: 0
+        },{
+            id: 4,
+            class: 'Lutador',
+            player1: 'Xorope',
+            champ1: '',
+            bans1: [''],
+            player2: 'Kuter',
+            champ2: '',
+            bans2: [''],
+            winner: 0,
+            form: 0,
+            free: 0
+        },
+        {
+            id: 5,
+            class: 'Suporte',
+            player1: 'Panquequin',
+            champ1: '',
+            bans1: [''],
+            player2: 'Ernest',
+            champ2: '',
+            bans2: [''],
+            winner: 0,
+            form: 0,
+            free: 0
+        },{
+            id: 6,
+            class: 'Atirador',
+            player1: 'Ernest',
+            champ1: '',
+            bans1: [''],
+            player2: 'Panquequin',
+            champ2: '',
+            bans2: [''],
+            winner: 0,
+            form: 0,
+            free: 0
+        },
+        {
+            id: 7,
+            class: 'Assassino',
+            player1: 'Killleer',
+            champ1: '',
+            bans1: [''],
+            player2: 'Kerm of Helm',
+            champ2: '',
+            bans2: [''],
+            winner: 0,
+            form: 0,
+            free: 0
+        },{
+            id: 8,
+            class: 'Atirador',
+            player1: 'Kerm of Helm',
+            champ1: '',
+            bans1: [''],
+            player2: 'Killleer',
+            champ2: '',
+            bans2: [''],
+            winner: 0,
+            form: 0,
+            free: 0
+        },
+        {
+            id: 9,
+            class: 'Atirador',
+            player1: 'STG Yoqks',
+            champ1: '',
+            bans1: [''],
+            player2: 'Camelo Solitário',
+            champ2: '',
+            bans2: [''],
+            winner: 0,
+            form: 0,
+            free: 0
+        },{
+            id: 10,
+            class: 'Assassino',
+            player1: 'Camelo Solitário',
+            champ1: '',
+            bans1: [''],
+            player2: 'STG Yoqks',
+            champ2: '',
+            bans2: [''],
+            winner: 0,
+            form: 0,
+            free: 0
+        },
+        {
+            id: 11,
+            ass: 'Talon',
+            sup: 'Rakan',
+            lut: 'Rengar',
+            tan: 'Jarvan IV',
+            mag: 'Janna',
+            ati: 'Vayne'
         }
     ]
 }
