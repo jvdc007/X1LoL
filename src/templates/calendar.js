@@ -8,7 +8,7 @@ Vue.component('Calendar', {
                     <button @click='next'>-></button>
                 </div>
                 <div id='games'> 
-                    <div class='games' v-for='game in round' v-if='game.id != 11'>
+                    <a class='games' v-for='game in round' v-if='game.id != 11' v-bind:src='game.link' targer='_blank'>
                         <div v-bind:class='games(game.id, 1)'>
                             <div v-bind:class='mold(game.free, 1)' v-if="game.champ1 != ''">
                                 <img class='champs' v-if="game.champ1 != ''" v-bind:src="'imgs/champIcons/'+game.champ1+'.png'">
@@ -32,7 +32,7 @@ Vue.component('Calendar', {
                                 <img class='champs' v-if="game.champ2 != ''" v-bind:src="'imgs/champIcons/'+game.champ2+'.png'">
                             </div>
                         </div>
-                    </div>
+                    </a>
                     <div class='free' v-for='game in round' v-if='game.id == 11'>
                         <div class='champFree'>
                             <img class='imgFree' v-bind:src="'imgs/champIcons/'+game.ass+'.png'"/>

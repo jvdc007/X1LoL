@@ -7,7 +7,6 @@ function initCalendar(){
 }
 
 function backRound(act){
-    console.log(act);
     if(act > 1){
         setCalendar(act, -1);
         return act-1;
@@ -17,7 +16,6 @@ function backRound(act){
 }
 
 function nextRound(act, tam){
-    console.log(act);
     if(act < tam){
         setCalendar(act, 1);
         return act+1;

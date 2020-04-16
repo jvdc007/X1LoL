@@ -21,6 +21,7 @@
     margin-bottom: 2px;
     display: grid;
     grid-template-columns: 10fr 1fr 10fr;
+    cursor: pointer;
 }
 #calendar .player1, #calendar .player2{
     display: flex;
@@ -101,4 +102,26 @@
     height: 30px;
     border-radius: 100%;
     margin-top: 3px;
+}
+#calendar .box{
+    position: absolute;
+    width: 560px;
+    height: 315px;
+    
+    border: 1px solid red;
+}
+#calendar .box iframe{
+    position: absolute;
+    width: 100%;
+}
+#calendar .box .closer{
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
 }
