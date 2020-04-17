@@ -11,7 +11,7 @@ function createRounds(){
         round9(),
         round10(),
         round11(),
-        //round12(),
+        round12(),
         //round13(),
         //round14(),
         //round15(),
@@ -74,7 +74,7 @@ function round1(){
             winner: 2,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/dLwHRtaW0Qo'
+            link: 'https://youtu.be/y0Q9pZayCYQ'
         },{
             id: 5,
             class: 'Suporte',
@@ -174,7 +174,8 @@ function round2(){
             bans2: ['Dr. Mundo', 'Ornn', 'Tryndamere'],
             winner: 2,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://youtu.be/JH_1uAQCGaY'
         },{
             id: 2,
             class: 'Assassino',
@@ -186,7 +187,8 @@ function round2(){
             bans2: ['Fizz', 'Shaco', 'Teemo'],
             winner: 1,
             form: 1,
-            free: 1
+            free: 1,
+            link: 'https://youtu.be/1PV__Cu0Gq0'
         },{
             id: 3,
             class: 'Tanque',
@@ -198,7 +200,8 @@ function round2(){
             bans2: ['Aatrox', 'Illaoi', 'Skarner'],
             winner: 2,
             form: 2,
-            free: 2
+            free: 2,
+            link: 'https://youtu.be/FO31v3NQ_GM'
         },{
             id: 4,
             class: 'Lutador',
@@ -210,7 +213,8 @@ function round2(){
             bans2: ['Renekton', 'Riven', 'Urgot'],
             winner: 2,
             form: 2,
-            free: 0
+            free: 0,
+            link: 'https://youtu.be/yyyGlOWBlf4'
         },{
             id: 5,
             class: 'Suporte',
@@ -248,7 +252,8 @@ function round2(){
             bans2: ['Fizz', 'Tryndamere', 'Vayne'],
             winner: 1,
             form: 1,
-            free: 3
+            free: 3,
+            link: 'https://youtu.be/WrKo-jd76_o'
         },{
             id: 8,
             class: 'Mago',
@@ -260,7 +265,8 @@ function round2(){
             bans2: ['Annie', 'Heimerdinger', 'Lux'],
             winner: 2,
             form: 3,
-            free: 0
+            free: 0,
+            link: 'https://youtu.be/rGKXhwV7GqM'
         },{
             id: 9,
             class: 'Atirador',
@@ -272,7 +278,8 @@ function round2(){
             bans2: ['Aphelios', 'Lucian', 'Teemo'],
             winner: 2,
             form: 3,
-            free: 2
+            free: 2,
+            link: 'https://youtu.be/pnwi7hmOw2U'
         },{
             id: 10,
             class: 'Suporte',
@@ -284,7 +291,8 @@ function round2(){
             bans2: ['Alistar', 'Heimerdinger', 'Kayle'],
             winner: 1,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://youtu.be/r6lBdLaHoms'
         },
         {
             id: 11,
@@ -310,7 +318,8 @@ function round3(){
             bans2: ['Braum', 'Fiddlesticks', 'Orianna'],
             winner: 2,
             form: 1,
-            free: 2
+            free: 2,
+            link: 'https://youtu.be/LjX3wgucJpU'
         },{
             id: 2,
             class: 'Atirador',
@@ -322,7 +331,8 @@ function round3(){
             bans2: ['Caitlyn', 'Ezreal', 'Tristana'],
             winner: 1,
             form: 1,
-            free: 2
+            free: 2,
+            link: 'https://youtu.be/C61NaQIDIcc'
         },{
             id: 3,
             class: 'Mago',
@@ -334,7 +344,8 @@ function round3(){
             bans2: ['Lissandra', 'Sylas', 'Zyra'],
             winner: 1,
             form: 1,
-            free: 1
+            free: 1,
+            link: 'https://youtu.be/SVSfxsuwang'
         },{
             id: 4,
             class: 'Lutador',
@@ -346,7 +357,8 @@ function round3(){
             bans2: ['Jayce', 'Mordekaiser', 'Swain'],
             winner: 1,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://youtu.be/JiV9KsPEajQ'
         },{
             id: 5,
             class: 'Mago',
@@ -358,7 +370,8 @@ function round3(){
             bans2: ['Veigar', 'Zilean', 'Zoe'],
             winner: 2,
             form: 1,
-            free: 2
+            free: 2,
+            link: 'https://youtu.be/rlUCwADqx3k'
         },{
             id: 6,
             class: 'Assassino',
@@ -370,7 +383,8 @@ function round3(){
             bans2: ['Ahri', 'Qiyana', 'Zed'],
             winner: 2,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://youtu.be/bsjishuljqc'
         },{
             id: 7,
             class: 'Suporte',
@@ -382,7 +396,8 @@ function round3(){
             bans2: ['Alistar', 'Orianna', 'Zoe'],
             winner: 1,
             form: 1,
-            free: 1
+            free: 1,
+            link: 'https://youtu.be/SNnDP0BOVYo'
         },{
             id: 8,
             class: 'Tanque',
@@ -394,7 +409,8 @@ function round3(){
             bans2: ['Gnar', 'Sion', 'Trundle'],
             winner: 2,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://youtu.be/6xPl2rwwlNQ'
         },{
             id: 9,
             class: 'Assassino',
@@ -406,7 +422,8 @@ function round3(){
             bans2: ['Master Yi', 'Riven', 'Yasuo'],
             winner: 2,
             form: 1,
-            free: 2
+            free: 2,
+            link: 'https://youtu.be/-zILde3tWz0'
         },{
             id: 10,
             class: 'Suporte',
@@ -418,7 +435,8 @@ function round3(){
             bans2: ['Tahm Kench', 'Zilean', 'Zyra'],
             winner: 2,
             form: 1,
-            free: 2
+            free: 2,
+            link: 'https://youtu.be/gV9FCHBhqpw'
         },
         {
             id: 11,
@@ -1541,26 +1559,26 @@ function round12(){
             id: 1,
             class: 'Assassino',
             player1: 'Kuter',
-            champ1: '',
-            bans1: [],
+            champ1: 'Jax',
+            bans1: ['Twitch', 'Master Yi', 'Katarina'],
             player2: 'Iponema',
-            champ2: '',
-            bans2: [],
-            winner: 0,
-            form: 0,
+            champ2: 'Evelynn',
+            bans2: ['Teemo', 'Sylas', 'Fizz'],
+            winner: 1,
+            form: 1,
             free: 0
         },{
             id: 2,
             class: 'Tanque',
             player1: 'Iponema',
-            champ1: '',
-            bans1: [],
+            champ1: 'Aatrox',
+            bans1: ['Ornn', 'Wukong', 'Trundle'],
             player2: 'Kuter',
-            champ2: '',
-            bans2: [],
-            winner: 0,
-            form: 0,
-            free: 0
+            champ2: 'Urgot',
+            bans2: ['Sett', 'Amumu', 'Braum'],
+            winner: 2,
+            form: 1,
+            free: 2
         },
         {
             id: 3,
@@ -1591,51 +1609,51 @@ function round12(){
             id: 5,
             class: 'Suporte',
             player1: 'nb porém LINDO',
-            champ1: '',
-            bans1: [],
+            champ1: 'Fiddlesticks',
+            bans1: ['Zoe', 'Orianna', 'Neeko'],
             player2: 'Ernest',
-            champ2: '',
-            bans2: [],
-            winner: 0,
-            form: 0,
+            champ2: 'Anivia',
+            bans2: ['Heimerdinger', 'Syndra', 'Karma'],
+            winner: 2,
+            form: 1,
             free: 0
         },{
             id: 6,
             class: 'Mago',
             player1: 'Ernest',
-            champ1: '',
-            bans1: [],
+            champ1: 'Maokai',
+            bans1: ['Syndra', 'Heimerdinger', 'Kennen'],
             player2: 'nb porém LINDO',
-            champ2: '',
-            bans2: [],
-            winner: 0,
-            form: 0,
+            champ2: 'Karma',
+            bans2: ['LeBlanc', 'Neeko', 'Brand'],
+            winner: 1,
+            form: 1,
             free: 0
         },
         {
             id: 7,
             class: 'Lutador',
             player1: 'Kerm of Helm',
-            champ1: '',
+            champ1: 'Sejuani',
             bans1: ['Riven', 'Illaoi', 'Yasuo'],
             player2: 'Camelo Solitário',
-            champ2: '',
+            champ2: 'Ryze',
             bans2: ['Gnar', 'Fizz', 'Ornn'],
-            winner: 0,
-            form: 0,
+            winner: 1,
+            form: 1,
             free: 0
         },{
             id: 8,
             class: 'Assassino',
             player1: 'Camelo Solitário',
-            champ1: '',
-            bans1: [],
+            champ1: 'Quinn',
+            bans1: ['Fizz', 'Tryndamere', 'Teemo'],
             player2: 'Kerm of Helm',
-            champ2: '',
-            bans2: [],
-            winner: 0,
-            form: 0,
-            free: 0
+            champ2: 'Malzahar',
+            bans2: ['Pyke', 'Vayne', 'Yasuo'],
+            winner: 1,
+            form: 1,
+            free: 2
         },
         {
             id: 9,
