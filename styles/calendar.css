@@ -22,6 +22,7 @@
     display: grid;
     grid-template-columns: 10fr 1fr 10fr;
     cursor: pointer;
+    text-decoration: none;
 }
 #calendar .player1, #calendar .player2{
     display: flex;
