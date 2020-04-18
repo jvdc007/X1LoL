@@ -12,7 +12,7 @@ function createRounds(){
         round10(),
         round11(),
         round12(),
-        //round13(),
+        round13(),
         //round14(),
         //round15(),
         //round16(),
@@ -462,7 +462,8 @@ function round4(){
             bans2: ['Quinn', 'Teemo', 'Jayce'],
             winner: 1,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://youtu.be/NjstevxAfmw'
         },{
             id: 2,
             class: 'Tanque',
@@ -474,7 +475,8 @@ function round4(){
             bans2: ['Dr. Mundo', 'Camille', 'Sett'],
             winner: 2,
             form: 1,
-            free: 2
+            free: 2,
+            link: 'https://youtu.be/rrR-llC6Z70'
         },
         {
             id: 3,
@@ -487,7 +489,8 @@ function round4(){
             bans2: ['Braum', 'Camille', 'Yorick'],
             winner: 1,
             form: 1,
-            free: 2
+            free: 2,
+            link: 'https://youtu.be/pNZ4W5snsew'
         },{
             id: 4,
             class: 'Assassino',
@@ -499,7 +502,8 @@ function round4(){
             bans2: ['Pyke', 'Teemo', 'Tryndamere'],
             winner: 2,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://youtu.be/Rg4tDMvcYF8'
         },
         {
             id: 5,
@@ -512,7 +516,8 @@ function round4(){
             bans2: ['LeBlanc', 'Katarina', 'Ezreal'],
             winner: 1,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://youtu.be/Na1HYm5GKH8'
         },{
             id: 6,
             class: 'Lutador',
@@ -524,7 +529,8 @@ function round4(){
             bans2: ['Sett', 'Kled', 'Fizz'],
             winner: 2,
             form: 1,
-            free: 2
+            free: 2,
+            link: 'https://youtu.be/q4sX4I2mkQk'
         },
         {
             id: 7,
@@ -537,7 +543,8 @@ function round4(){
             bans2: ['Tryndamere', 'Wukong', 'Olaf'],
             winner: 2,
             form: 3,
-            free: 3
+            free: 3,
+            link: 'https://youtu.be/IdXTzv6W0WA'
         },{
             id: 8,
             class: 'Mago',
@@ -562,7 +569,8 @@ function round4(){
             bans2: ['Teemo', 'Miss Fortune', 'Kindred'],
             winner: 2,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://youtu.be/J2M1sqJusYs'
         },{
             id: 10,
             class: 'Suporte',
@@ -574,7 +582,8 @@ function round4(){
             bans2: ['Syndra', 'Orianna', 'Pyke'],
             winner: 2,
             form: 1,
-            free: 2
+            free: 2,
+            link: 'https://youtu.be/4jbcQ9F056Y'
         },
         {
             id: 11,
@@ -1659,18 +1668,56 @@ function round12(){
             id: 9,
             class: 'Lutador',
             player1: 'Panquequin',
+            champ1: 'Shyvana',
+            bans1: ['Camille', 'Kled', 'Illaoi'],
+            player2: 'STG Yoqks',
+            champ2: 'Kayle',
+            bans2: ['Trundle', 'Tryndamere', 'Garen'],
+            winner: 1,
+            form: 1,
+            free: 0
+        },{
+            id: 10,
+            class: 'Atirador',
+            player1: 'STG Yoqks',
+            champ1: 'Quinn',
+            bans1: ['Miss Fortune', 'Sivir', 'Teemo'],
+            player2: 'Panquequin',
+            champ2: 'Quinn',
+            bans2: ['Caitlyn', 'Xayah', 'Draven'],
+            winner: 2,
+            form: 1,
+            free: 3
+        },
+        {
+            id: 11,
+            ass: 'Malzahar',
+            sup: 'Senna',
+            lut: 'Volibear',
+            tan: 'Urgot',
+            mag: 'Orianna',
+            ati: 'Quinn'
+        }
+    ]
+}
+function round13(){
+    return [
+        {
+            id: 1,
+            class: 'Atirador',
+            player1: 'Panquequin',
             champ1: '',
             bans1: [],
-            player2: 'STG Yoqks',
+            player2: 'Kuter',
             champ2: '',
             bans2: [],
             winner: 0,
             form: 0,
             free: 0
         },{
-            id: 10,
-            class: 'Atirador',
-            player1: 'STG Yoqks',
+            id: 2,
+            class: 'Mago',
+            player1: 'Kuter',
             champ1: '',
             bans1: [],
             player2: 'Panquequin',
@@ -1681,13 +1728,113 @@ function round12(){
             free: 0
         },
         {
+            id: 3,
+            class: 'Lutador',
+            player1: 'Iponema',
+            champ1: '',
+            bans1: [],
+            player2: 'Camelo Solitário',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },{
+            id: 4,
+            class: 'Assassino',
+            player1: 'Camelo Solitário',
+            champ1: '',
+            bans1: [],
+            player2: 'Iponema',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },
+        {
+            id: 5,
+            class: 'Mago',
+            player1: 'Killleer',
+            champ1: 'Rumble',
+            bans1: ['Veigar', 'Lux', 'Ahri'],
+            player2: 'nb porém LINDO',
+            champ2: "Cho'Gath",
+            bans2: ['Zoe', 'Syndra', 'LeBlanc'],
+            winner: 1,
+            form: 1,
+            free: 2
+        },{
+            id: 6,
+            class: 'Assassino',
+            player1: 'nb porém LINDO',
+            champ1: 'Ekko',
+            bans1: ['LeBlanc', 'Zed', 'Jax'],
+            player2: 'Killleer',
+            champ2: 'Pantheon',
+            bans2: ['Fizz', 'Malzahar', 'Tryndamere'],
+            winner: 2,
+            form: 1,
+            free: 2
+        },
+        {
+            id: 7,
+            class: 'Suporte',
+            player1: 'Kerm of Helm',
+            champ1: 'Senna',
+            bans1: ['Ivern', 'Pyke', 'Taliyah'],
+            player2: 'Ernest',
+            champ2: 'Neeko',
+            bans2: ['Heimerdinger', 'Syndra', 'Lulu'],
+            winner: 2,
+            form: 1,
+            free: 0
+        },{
+            id: 8,
+            class: 'Atirador',
+            player1: 'Ernest',
+            champ1: 'Ezreal',
+            bans1: ['Caitlyn', 'Teemo', 'Jayce'],
+            player2: 'Kerm of Helm',
+            champ2: 'Varus',
+            bans2: ['Vayne', 'Kalista', 'Azir'],
+            winner: 1,
+            form: 1,
+            free: 2
+        },
+        {
+            id: 9,
+            class: 'Lutador',
+            player1: 'Xorope',
+            champ1: 'Master Yi',
+            bans1: ['Urgot', 'Ryze', 'Kayle'],
+            player2: 'STG Yoqks',
+            champ2: 'Fizz',
+            bans2: ['Vi', 'Renekton', 'Sett'],
+            winner: 1,
+            form: 1,
+            free: 0
+        },{
+            id: 10,
+            class: 'Assassino',
+            player1: 'STG Yoqks',
+            champ1: 'Nocturne',
+            bans1: ['Tryndamere', 'Teemo', 'Tristana'],
+            player2: 'Xorope',
+            champ2: 'Kayn',
+            bans2: ['Quinn', 'Ahri', 'Twitch'],
+            winner: 1,
+            form: 1,
+            free: 0
+        },
+        {
             id: 11,
-            ass: 'Malzahar',
-            sup: 'Senna',
-            lut: 'Volibear',
-            tan: 'Urgot',
-            mag: 'Orianna',
-            ati: 'Quinn'
+            ass: 'Pantheon',
+            sup: 'Tahm Kench',
+            lut: 'Nautilus',
+            tan: 'Singed',
+            mag: "Cho'Gath",
+            ati: 'Varus'
         }
     ]
 }
