@@ -2,29 +2,39 @@ Vue.component('InfoPlayers', {
     template:
         `<div id='infoPlayers' class='component'>
             <div id='info' v-if="chosen != ''">
-                <img id='icon' v-bind:src='info.icon' />
                 <div id='mainInfo'>
-                    <span id='nick'>{{info.nick}}</span>
-                    <div id='forms'>
-                        <div>
-                            <img src='imgs/icons/kill.png' alt='Kills'/><span v-text='info.kills'/>
+                    <img id='icon' v-bind:src='info.icon' />
+                    <div id='main'>
+                        <span id='nick'>{{info.nick}}</span>
+                        <div id='forms'>
+                            <div>
+                                <img src='imgs/icons/kill.png' alt='Kills'/><span v-text='info.kills'/>
+                            </div>
+                            <div>
+                                <img src='imgs/icons/farm.png' alt='Farm'/><span v-text='info.farm'/>
+                            </div>
+                            <div>
+                                <img src='imgs/icons/tower.png' alt='Towers'/><span v-text='info.towers'/>
+                            </div>
                         </div>
-                        <div>
-                            <img src='imgs/icons/farm.png' alt='Farm'/><span v-text='info.farm'/>
-                        </div>
-                        <div>
-                            <img src='imgs/icons/tower.png' alt='Towers'/><span v-text='info.towers'/>
+                    </div>
+                </div>
+                <div id='historic'>
+                    <div v-for='(champ, index) in info.hist'>
+                        <div v-if="index < indexHist ">
+                            {{champ}}
                         </div>
                     </div>
                 </div>
             </div>
-            <div v-else>Clique em um jogador para ver suas estatísticas!</div>
+            <div id='infoChamps' v-else>Clique em um jogador para ver suas estatísticas!</div>
         </div>`,
     data(){
         return {
             players: createPlayers(),
             chosen: '',
-            info: {}
+            info: {},
+            indexHist: 0
         }
     },
     methods: {
@@ -43,5 +53,6 @@ Vue.component('InfoPlayers', {
     },
     beforeUpdate(){
         this.findPlayer();
+        this.indexHist = indexHistoric(this.info.hist);
     }
 })

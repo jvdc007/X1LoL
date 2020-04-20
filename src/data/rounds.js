@@ -13,7 +13,7 @@ function createRounds(){
         round11(),
         round12(),
         round13(),
-        //round14(),
+        round14(),
         //round15(),
         //round16(),
         //round17(),
@@ -1835,6 +1835,144 @@ function round13(){
             tan: 'Singed',
             mag: "Cho'Gath",
             ati: 'Varus'
+        }
+    ]
+}
+function round14(){
+    return [
+        {
+            id: 1,
+            class: 'Atirador',
+            player1: 'Panquequin',
+            champ1: '',
+            bans1: [],
+            player2: 'Iponema',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },{
+            id: 2,
+            class: 'Mago',
+            player1: 'Iponema',
+            champ1: '',
+            bans1: [],
+            player2: 'Panquequin',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },
+        {
+            id: 3,
+            class: 'Lutador',
+            player1: 'Camelo Solitário',
+            champ1: '',
+            bans1: [],
+            player2: 'nb porém LINDO',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },{
+            id: 4,
+            class: 'Assasino',
+            player1: 'nb porém LINDO',
+            champ1: '',
+            bans1: [],
+            player2: 'Camelo Solitário',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },
+        {
+            id: 5,
+            class: 'Mago',
+            player1: 'Kuter',
+            champ1: '',
+            bans1: [],
+            player2: 'Killleer',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },{
+            id: 6,
+            class: 'Assassino',
+            player1: 'Killleer',
+            champ1: '',
+            bans1: [],
+            player2: 'Kuter',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },
+        {
+            id: 7,
+            class: 'Suporte',
+            player1: 'Kerm of Helm',
+            champ1: '',
+            bans1: [],
+            player2: 'Xorope',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },{
+            id: 8,
+            class: 'Atirador',
+            player1: 'Xorope',
+            champ1: '',
+            bans1: [],
+            player2: 'Kerm of Helm',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },
+        {
+            id: 9,
+            class: 'Lutador',
+            player1: 'Ernest',
+            champ1: '',
+            bans1: [],
+            player2: 'STG Yoqks',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },{
+            id: 10,
+            class: 'Assassino',
+            player1: 'STG Yoqks',
+            champ1: '',
+            bans1: [],
+            player2: 'Ernest',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },
+        {
+            id: 11,
+            ass: 'Malzahar',
+            lut: 'Singed',
+            mag: 'Annie',
+            ati: 'Jayce',
+            sup: 'Thresh',
+            tan: 'Nasus'
         }
     ]
 }
