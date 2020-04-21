@@ -20,9 +20,12 @@ Vue.component('InfoPlayers', {
                     </div>
                 </div>
                 <div id='historic'>
-                    <div v-for='(champ, index) in info.hist'>
-                        <div v-if="index < indexHist ">
-                            {{champ}}
+                    <span>Histórico</span>
+                    <div v-for='(confront, index) in info.hist'>
+                        <div class='confronts'>
+                            <img v-bind:class='mold(confront)' v-bind:src="'imgs/champIcons/'+confront.champ+'.png'"/>
+                            vs
+                            <img class='imgAdv' v-bind:src="'imgs/champIcons/'+confront.adv+'.png'"/>
                         </div>
                     </div>
                 </div>
@@ -34,7 +37,6 @@ Vue.component('InfoPlayers', {
             players: createPlayers(),
             chosen: '',
             info: {},
-            indexHist: 0
         }
     },
     methods: {
@@ -44,6 +46,9 @@ Vue.component('InfoPlayers', {
                     this.info = this.players[i];
                 }
             }
+        },
+        mold(conf){
+            return winnerOrLoser(conf);
         }
     },
     beforeCreate(){
@@ -53,6 +58,5 @@ Vue.component('InfoPlayers', {
     },
     beforeUpdate(){
         this.findPlayer();
-        this.indexHist = indexHistoric(this.info.hist);
     }
 })

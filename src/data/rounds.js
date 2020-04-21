@@ -609,7 +609,8 @@ function round5(){
             bans2: ['Anivia', 'Braum', 'Ashe'],
             winner: 1,
             form: 1,
-            free: 3
+            free: 3,
+            link: 'https://youtu.be/5TRiVvC2sqY'
         },{
             id: 2,
             class: 'Mago',
@@ -621,7 +622,8 @@ function round5(){
             bans2: ['Veigar', 'Ziggs', 'Syndra'],
             winner: 1,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://youtu.be/SfajsSSFb1I'
         }
         ,{
             id: 3,
@@ -634,7 +636,8 @@ function round5(){
             bans2: ['Singed', 'Nasus', 'Illaoi'],
             winner: 1,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://youtu.be/r_Appv_JmHc'
         },{
             id: 4,
             class: 'Suporte',
@@ -646,7 +649,8 @@ function round5(){
             bans2: ['Alistar', 'Heimerdinger', 'Zoe'],
             winner: 2,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://youtu.be/cElAh5SVujo'
         }
         ,{
             id: 5,
@@ -659,7 +663,8 @@ function round5(){
             bans2: ['Evelynn', 'Tryndamere', 'Twitch'],
             winner: 1,
             form: 3,
-            free: 2
+            free: 2,
+            link: 'https://youtu.be/atj52ANaTE4'
         },{
             id: 6,
             class: 'Atirador',
@@ -671,7 +676,8 @@ function round5(){
             bans2: ['Teemo', 'Kindred', 'Senna'],
             winner: 2,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://youtu.be/7XCBhGu4QKM'
         }
         ,{
             id: 7,
@@ -709,7 +715,8 @@ function round5(){
             bans2: ['Sett', 'Urgot', 'Kled'],
             winner: 2,
             form: 1,
-            free: 2
+            free: 2,
+            link: 'https://youtu.be/3puF4ilVnTU'
         },{
             id: 10,
             class: 'Lutador',
@@ -721,7 +728,8 @@ function round5(){
             bans2: ['Tryndamere', 'Trundle', 'Rumble'],
             winner: 2,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://youtu.be/6JoULNCGF0Y'
         },
         {
             id: 11,

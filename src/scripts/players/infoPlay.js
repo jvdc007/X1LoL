@@ -1,13 +1,7 @@
-function indexHistoric(hist){
-    let i = 0;
-    let n = 0;
-    hist.forEach(champ => {
-        if(champ != ''){
-            n ++;
-        }
-        if(n < 11){
-            i++;
-        }
-    });
-    return i;
+function winnerOrLoser(conf){
+    if(conf.result == 1){
+        return 'imgChamp winner';
+    }else{
+        return 'imgChamp loser';
+    }
 }

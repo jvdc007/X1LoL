@@ -114,9 +114,17 @@ function getMmr(k, f, t){
 
 function getChamp(game, nick){
     if(game.player1 == nick){
-        return game.champ1;
+        return {
+            champ: game.champ1,
+            adv: game.champ2,
+            result: game.winner == 1 ? 1 : 0
+        }
     }if(game.player2 == nick){
-        return game.champ2;
+        return {
+            champ: game.champ2,
+            adv: game.champ1,
+            result: game.winner == 2 ? 1 : 0
+        }
     }return null;
 }
 
