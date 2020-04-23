@@ -21,7 +21,9 @@ function player(nick){
             kills += getKills(game, nick);
             farm += getFarm(game, nick);
             towers += getTowers(game, nick);
-            hist.unshift(getChamp(game, nick));
+            if(game.winner != 0){
+                hist.unshift(getChamp(game, nick));
+            }
         });
     });
     return {

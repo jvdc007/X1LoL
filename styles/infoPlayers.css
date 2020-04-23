@@ -1,3 +1,6 @@
+#infoPlayers{
+    height: 203px;
+}
 #infoPlayers div#info{
     display: flex;
     align-items: flex-start;
@@ -32,7 +35,7 @@
 }
 #infoPlayers div#historic{
     width: 35%;
-    height: 203px;
+    height: 196px;
     overflow: auto;
     text-align: center;
     padding-top: 7px;
