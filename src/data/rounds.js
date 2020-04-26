@@ -16,8 +16,8 @@ function createRounds(){
         round14(),
         round15(),
         round16(),
-        //round17(),
-        //round18()
+        round17(),
+        round18()
     ]
 }
 
@@ -35,7 +35,7 @@ function round1(){
             winner: 2,
             form: 1,
             free: 2,
-            link: 'https://youtu.be/hT37BQnXhZk'
+            link: 'https://www.youtube.com/embed/hT37BQnXhZk'
         },{
             id: 2,
             class: 'Assassino',
@@ -48,7 +48,7 @@ function round1(){
             winner: 1,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/lPGIrhvZXfs'
+            link: 'https://www.youtube.com/embed/lPGIrhvZXfs'
         },{
             id: 3,
             class: 'Lutador',
@@ -61,7 +61,7 @@ function round1(){
             winner: 1,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/petWknPS6qI'
+            link: 'https://www.youtube.com/embed/petWknPS6qI'
         },{
             id: 4,
             class: 'Assassino',
@@ -74,7 +74,7 @@ function round1(){
             winner: 2,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/y0Q9pZayCYQ'
+            link: 'https://www.youtube.com/embed/y0Q9pZayCYQ'
         },{
             id: 5,
             class: 'Suporte',
@@ -135,7 +135,7 @@ function round1(){
             winner: 1,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/7fwjv04KcMw'
+            link: 'https://www.youtube.com/embed/7fwjv04KcMw'
         },{
             id: 10,
             class: 'Atirador',
@@ -148,7 +148,7 @@ function round1(){
             winner: 2,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/Mus9NwZcOhg'
+            link: 'https://www.youtube.com/embed/Mus9NwZcOhg'
         },
         {
             id: 11,
@@ -175,7 +175,7 @@ function round2(){
             winner: 2,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/JH_1uAQCGaY'
+            link: 'https://www.youtube.com/embed/JH_1uAQCGaY'
         },{
             id: 2,
             class: 'Assassino',
@@ -188,7 +188,7 @@ function round2(){
             winner: 1,
             form: 1,
             free: 1,
-            link: 'https://youtu.be/1PV__Cu0Gq0'
+            link: 'https://www.youtube.com/embed/1PV__Cu0Gq0'
         },{
             id: 3,
             class: 'Tanque',
@@ -201,7 +201,7 @@ function round2(){
             winner: 2,
             form: 2,
             free: 2,
-            link: 'https://youtu.be/FO31v3NQ_GM'
+            link: 'https://www.youtube.com/embed/FO31v3NQ_GM'
         },{
             id: 4,
             class: 'Lutador',
@@ -214,7 +214,7 @@ function round2(){
             winner: 2,
             form: 2,
             free: 0,
-            link: 'https://youtu.be/yyyGlOWBlf4'
+            link: 'https://www.youtube.com/embed/yyyGlOWBlf4'
         },{
             id: 5,
             class: 'Suporte',
@@ -227,7 +227,7 @@ function round2(){
             winner: 2,
             form: 2,
             free: 1,
-            link: 'https://youtu.be/xy87iRRGnqY'
+            link: 'https://www.youtube.com/embed/xy87iRRGnqY'
         },{
             id: 6,
             class: 'Assassino',
@@ -240,7 +240,7 @@ function round2(){
             winner: 2,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/IzAgKl_pqcE'
+            link: 'https://www.youtube.com/embed/IzAgKl_pqcE'
         },{
             id: 7,
             class: 'Assassino',
@@ -253,7 +253,7 @@ function round2(){
             winner: 1,
             form: 1,
             free: 3,
-            link: 'https://youtu.be/WrKo-jd76_o'
+            link: 'https://www.youtube.com/embed/WrKo-jd76_o'
         },{
             id: 8,
             class: 'Mago',
@@ -266,7 +266,7 @@ function round2(){
             winner: 2,
             form: 3,
             free: 0,
-            link: 'https://youtu.be/rGKXhwV7GqM'
+            link: 'https://www.youtube.com/embed/rGKXhwV7GqM'
         },{
             id: 9,
             class: 'Atirador',
@@ -279,7 +279,7 @@ function round2(){
             winner: 2,
             form: 3,
             free: 2,
-            link: 'https://youtu.be/pnwi7hmOw2U'
+            link: 'https://www.youtube.com/embed/pnwi7hmOw2U'
         },{
             id: 10,
             class: 'Suporte',
@@ -292,7 +292,7 @@ function round2(){
             winner: 1,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/r6lBdLaHoms'
+            link: 'https://www.youtube.com/embed/r6lBdLaHoms'
         },
         {
             id: 11,
@@ -319,7 +319,7 @@ function round3(){
             winner: 2,
             form: 1,
             free: 2,
-            link: 'https://youtu.be/LjX3wgucJpU'
+            link: 'https://www.youtube.com/embed/LjX3wgucJpU'
         },{
             id: 2,
             class: 'Atirador',
@@ -332,7 +332,7 @@ function round3(){
             winner: 1,
             form: 1,
             free: 2,
-            link: 'https://youtu.be/C61NaQIDIcc'
+            link: 'https://www.youtube.com/embed/C61NaQIDIcc'
         },{
             id: 3,
             class: 'Mago',
@@ -345,7 +345,7 @@ function round3(){
             winner: 1,
             form: 1,
             free: 1,
-            link: 'https://youtu.be/SVSfxsuwang'
+            link: 'https://www.youtube.com/embed/SVSfxsuwang'
         },{
             id: 4,
             class: 'Lutador',
@@ -358,7 +358,7 @@ function round3(){
             winner: 1,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/JiV9KsPEajQ'
+            link: 'https://www.youtube.com/embed/JiV9KsPEajQ'
         },{
             id: 5,
             class: 'Mago',
@@ -371,7 +371,7 @@ function round3(){
             winner: 2,
             form: 1,
             free: 2,
-            link: 'https://youtu.be/rlUCwADqx3k'
+            link: 'https://www.youtube.com/embed/rlUCwADqx3k'
         },{
             id: 6,
             class: 'Assassino',
@@ -384,7 +384,7 @@ function round3(){
             winner: 2,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/bsjishuljqc'
+            link: 'https://www.youtube.com/embed/bsjishuljqc'
         },{
             id: 7,
             class: 'Suporte',
@@ -397,7 +397,7 @@ function round3(){
             winner: 1,
             form: 1,
             free: 1,
-            link: 'https://youtu.be/SNnDP0BOVYo'
+            link: 'https://www.youtube.com/embed/SNnDP0BOVYo'
         },{
             id: 8,
             class: 'Tanque',
@@ -410,7 +410,7 @@ function round3(){
             winner: 2,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/6xPl2rwwlNQ'
+            link: 'https://www.youtube.com/embed/6xPl2rwwlNQ'
         },{
             id: 9,
             class: 'Assassino',
@@ -423,7 +423,7 @@ function round3(){
             winner: 2,
             form: 1,
             free: 2,
-            link: 'https://youtu.be/-zILde3tWz0'
+            link: 'https://www.youtube.com/embed/-zILde3tWz0'
         },{
             id: 10,
             class: 'Suporte',
@@ -436,7 +436,7 @@ function round3(){
             winner: 2,
             form: 1,
             free: 2,
-            link: 'https://youtu.be/gV9FCHBhqpw'
+            link: 'https://www.youtube.com/embed/gV9FCHBhqpw'
         },
         {
             id: 11,
@@ -463,7 +463,7 @@ function round4(){
             winner: 1,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/NjstevxAfmw'
+            link: 'https://www.youtube.com/embed/NjstevxAfmw'
         },{
             id: 2,
             class: 'Tanque',
@@ -476,7 +476,7 @@ function round4(){
             winner: 2,
             form: 1,
             free: 2,
-            link: 'https://youtu.be/rrR-llC6Z70'
+            link: 'https://www.youtube.com/embed/rrR-llC6Z70'
         },
         {
             id: 3,
@@ -490,7 +490,7 @@ function round4(){
             winner: 1,
             form: 1,
             free: 2,
-            link: 'https://youtu.be/pNZ4W5snsew'
+            link: 'https://www.youtube.com/embed/pNZ4W5snsew'
         },{
             id: 4,
             class: 'Assassino',
@@ -503,7 +503,7 @@ function round4(){
             winner: 2,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/Rg4tDMvcYF8'
+            link: 'https://www.youtube.com/embed/Rg4tDMvcYF8'
         },
         {
             id: 5,
@@ -517,7 +517,7 @@ function round4(){
             winner: 1,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/Na1HYm5GKH8'
+            link: 'https://www.youtube.com/embed/Na1HYm5GKH8'
         },{
             id: 6,
             class: 'Lutador',
@@ -530,7 +530,7 @@ function round4(){
             winner: 2,
             form: 1,
             free: 2,
-            link: 'https://youtu.be/q4sX4I2mkQk'
+            link: 'https://www.youtube.com/embed/q4sX4I2mkQk'
         },
         {
             id: 7,
@@ -544,7 +544,7 @@ function round4(){
             winner: 2,
             form: 3,
             free: 3,
-            link: 'https://youtu.be/IdXTzv6W0WA'
+            link: 'https://www.youtube.com/embed/IdXTzv6W0WA'
         },{
             id: 8,
             class: 'Mago',
@@ -570,7 +570,7 @@ function round4(){
             winner: 2,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/J2M1sqJusYs'
+            link: 'https://www.youtube.com/embed/J2M1sqJusYs'
         },{
             id: 10,
             class: 'Suporte',
@@ -583,7 +583,7 @@ function round4(){
             winner: 2,
             form: 1,
             free: 2,
-            link: 'https://youtu.be/4jbcQ9F056Y'
+            link: 'https://www.youtube.com/embed/4jbcQ9F056Y'
         },
         {
             id: 11,
@@ -610,7 +610,7 @@ function round5(){
             winner: 1,
             form: 1,
             free: 3,
-            link: 'https://youtu.be/5TRiVvC2sqY'
+            link: 'https://www.youtube.com/embed/5TRiVvC2sqY'
         },{
             id: 2,
             class: 'Mago',
@@ -623,7 +623,7 @@ function round5(){
             winner: 1,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/SfajsSSFb1I'
+            link: 'https://www.youtube.com/embed/SfajsSSFb1I'
         }
         ,{
             id: 3,
@@ -637,8 +637,8 @@ function round5(){
             winner: 1,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/r_Appv_JmHc'
-        },{
+            link: 'https://www.youtube.com/embed/r_Appv_JmHc'
+        },{ 
             id: 4,
             class: 'Suporte',
             player1: 'Kerm of Helm',
@@ -650,7 +650,7 @@ function round5(){
             winner: 2,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/cElAh5SVujo'
+            link: 'https://www.youtube.com/embed/cElAh5SVujo'
         }
         ,{
             id: 5,
@@ -664,7 +664,7 @@ function round5(){
             winner: 1,
             form: 3,
             free: 2,
-            link: 'https://youtu.be/atj52ANaTE4'
+            link: 'https://www.youtube.com/embed/atj52ANaTE4'
         },{
             id: 6,
             class: 'Atirador',
@@ -677,7 +677,7 @@ function round5(){
             winner: 2,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/7XCBhGu4QKM'
+            link: 'https://www.youtube.com/embed/7XCBhGu4QKM'
         }
         ,{
             id: 7,
@@ -716,7 +716,7 @@ function round5(){
             winner: 2,
             form: 1,
             free: 2,
-            link: 'https://youtu.be/3puF4ilVnTU'
+            link: 'https://www.youtube.com/embed/3puF4ilVnTU'
         },{
             id: 10,
             class: 'Lutador',
@@ -729,7 +729,7 @@ function round5(){
             winner: 2,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/6JoULNCGF0Y'
+            link: 'https://www.youtube.com/embed/6JoULNCGF0Y'
         },
         {
             id: 11,
@@ -781,7 +781,7 @@ function round6(){
             winner: 1,
             form: 1,
             free: 2,
-            link: 'https://youtu.be/lp6tN5LEITk'
+            link: 'https://www.youtube.com/embed/lp6tN5LEITk'
         },{
             id: 4,
             class: 'Lutador',
@@ -794,7 +794,7 @@ function round6(){
             winner: 1,
             form: 1,
             free: 2,
-            link: 'https://youtu.be/Bey1opGPqE8'
+            link: 'https://www.youtube.com/embed/Bey1opGPqE8'
         },
         {
             id: 5,
@@ -808,7 +808,7 @@ function round6(){
             winner: 2,
             form: 1,
             free: 1,
-            link: 'https://youtu.be/d5YzvEbDvVc'
+            link: 'https://www.youtube.com/embed/d5YzvEbDvVc'
         },{
             id: 6,
             class: 'Suporte',
@@ -821,7 +821,7 @@ function round6(){
             winner: 1,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/FNJs95w_XRo'
+            link: 'https://www.youtube.com/embed/FNJs95w_XRo'
         },
         {
             id: 7,
@@ -835,7 +835,7 @@ function round6(){
             winner: 2,
             form: 1,
             free: 2,
-            link: 'https://youtu.be/21Qm4RBM7Lg'
+            link: 'https://www.youtube.com/embed/21Qm4RBM7Lg'
         },{
             id: 8,
             class: 'Mago',
@@ -848,7 +848,7 @@ function round6(){
             winner: 1,
             form: 1,
             free: 2,
-            link: 'https://youtu.be/Ji12MX5-wGU'
+            link: 'https://www.youtube.com/embed/Ji12MX5-wGU'
         },
         {
             id: 9,
@@ -862,7 +862,7 @@ function round6(){
             winner: 2,
             form: 1,
             free: 0,
-            link: 'https://youtu.be/LVEuYGc3784'
+            link: 'https://www.youtube.com/embed/LVEuYGc3784'
         },{
             id: 10,
             class: 'Mago',
@@ -875,7 +875,7 @@ function round6(){
             winner: 1,
             form: 2,
             free: 1,
-            link: 'https://youtu.be/CutRN3NQzGI'
+            link: 'https://www.youtube.com/embed/CutRN3NQzGI'
         },
         {
             id: 11,
@@ -901,7 +901,8 @@ function round7(){
             bans2: ['Evelynn', 'Master Yi', 'Tryndamere'],
             winner: 2,
             form: 1,
-            free: 1
+            free: 1,
+            link: 'https://www.youtube.com/embed/77YQbHLCgpI'
         },{
             id: 2,
             class: 'Mago',
@@ -913,7 +914,8 @@ function round7(){
             bans2: ['LeBlanc', 'Malzahar', 'Syndra'],
             winner: 1,
             form: 2,
-            free: 1
+            free: 1,
+            link: 'https://www.youtube.com/embed/cHoTUEpa_qg'
         },
         {
             id: 3,
@@ -926,7 +928,8 @@ function round7(){
             bans2: ['Jayce', 'Jhin', 'Corki'],
             winner: 1,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/5TqKjvhhKLI'
         },{
             id: 4,
             class: 'Mago',
@@ -938,7 +941,8 @@ function round7(){
             bans2: ['Ivern', 'Kennen', 'Aurelion Sol'],
             winner: 1,
             form: 1,
-            free: 1
+            free: 1,
+            link: 'https://www.youtube.com/embed/-JFefHOLHPk'
         },
         {
             id: 5,
@@ -1039,7 +1043,8 @@ function round8(){
             bans2: ['Taric', 'Singed', 'Tryndamere'],
             winner: 2,
             form: 1,
-            free: 2
+            free: 2,
+            link: 'https://www.youtube.com/embed/wX37N3MicJA'
         },{
             id: 2,
             class: 'Assassino',
@@ -1076,7 +1081,8 @@ function round8(){
             bans2: ['Tryndamere', 'Fizz', 'Darius'],
             winner: 1,
             form: 1,
-            free: 1
+            free: 1,
+            link: 'https://www.youtube.com/embed/XffRohU4n4g'
         },
         {
             id: 5,
@@ -2264,6 +2270,282 @@ function round16(){
             mag: 'Diana',
             ati: 'Vayne',
             sup: 'Thresh',
+            tan: 'Nunu'
+        }
+    ]
+}
+function round17(){
+    return [
+        {
+            id: 1,
+            class: 'Tanque',
+            player1: 'Killleer',
+            champ1: 'Gnar',
+            bans1: ['Urgot', 'Illaoi', 'Renekton'],
+            player2: 'Panquequin',
+            champ2: 'Olaf',
+            bans2: ['Braum', 'Sett', 'Ornn'],
+            winner: 2,
+            form: 1,
+            free: 0
+        },{
+            id: 2,
+            class: 'Mago',
+            player1: 'Panquequin',
+            champ1: 'Orianna',
+            bans1: ['Anivia', 'LeBlanc', 'Fiddlesticks'],
+            player2: 'Killleer',
+            champ2: 'Zoe',
+            bans2: ['Heimerdinger', 'Zyra', 'Morgana'],
+            winner: 1,
+            form: 1,
+            free: 0
+        },
+        {
+            id: 3,
+            class: 'Atirador',
+            player1: 'Iponema',
+            champ1: 'Graves',
+            bans1: ['Teemo', 'Tristana', "Kog'Maw"],
+            player2: 'Xorope',
+            champ2: 'Twitch',
+            bans2: ['Jayce', 'Varus', 'Quinn'],
+            winner: 1,
+            form: 1,
+            free: 0
+        },{
+            id: 4,
+            class: 'Tanque',
+            player1: 'Xorope',
+            champ1: 'Wukong',
+            bans1: ['Alistar', 'Urgot', 'Darius'],
+            player2: 'Iponema',
+            champ2: 'Trundle',
+            bans2: ['Gnar', 'Tahm Kench', 'Illaoi'],
+            winner: 2,
+            form: 2,
+            free: 0
+        },
+        {
+            id: 5,
+            class: 'Tanque',
+            player1: 'Camelo Solitário',
+            champ1: '',
+            bans1: [''],
+            player2: 'Ernest',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },{
+            id: 6,
+            class: 'Assassino',
+            player1: 'Ernest',
+            champ1: '',
+            bans1: [],
+            player2: 'Camelo Solitário',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },
+        {
+            id: 7,
+            class: 'Mago',
+            player1: 'Kuter',
+            champ1: 'Maokai',
+            bans1: ["Kog'Maw", 'Amumu', 'Aurelion Sol'],
+            player2: 'nb porém LINDO',
+            champ2: 'Heimerdinger',
+            bans2: ['Zoe', 'Syndra', 'Nidalee'],
+            winner: 1,
+            form: 1,
+            free: 0
+        },{
+            id: 8,
+            class: 'Atirador',
+            player1: 'nb porém LINDO',
+            champ1: 'Sivir',
+            bans1: ['Caitlyn', 'Jhin', 'Teemo'],
+            player2: 'Kuter',
+            champ2: 'Draven',
+            bans2: ['Aphelios', "Kog'Maw", 'Twitch'],
+            winner: 2,
+            form: 1,
+            free: 0
+        },
+        {
+            id: 9,
+            class: 'Tanque',
+            player1: 'STG Yoqks',
+            champ1: 'Shyvana',
+            bans1: ['Darius', 'Renekton', 'Sett'],
+            player2: 'Kerm of Helm',
+            champ2: 'Tahm Kench',
+            bans2: ['Singed', 'Illaoi', 'Garen'],
+            winner: 2,
+            form: 1,
+            free: 1
+        },{
+            id: 10,
+            class: 'Mago',
+            player1: 'Kerm of Helm',
+            champ1: 'Annie',
+            bans1: ['Ivern', 'Taliyah', 'Vladimir'],
+            player2: 'STG Yoqks',
+            champ2: 'Evelynn',
+            bans2: ['Zilean', 'Diana', 'Orianna'],
+            winner: 2,
+            form: 1,
+            free: 1
+        },
+        {
+            id: 11,
+            ass: 'Katarina',
+            lut: 'Urgot',
+            mag: 'Annie',
+            ati: 'Senna',
+            sup: 'Alistar',
+            tan: 'Shyvana'
+        }
+    ]
+}
+function round18(){
+    return [
+        {
+            id: 1,
+            class: 'Tanque',
+            player1: 'Killleer',
+            champ1: 'Alistar',
+            bans1: ['Urgot', 'Renekton', 'Kled'],
+            player2: 'Camelo Solitário',
+            champ2: 'Shen',
+            bans2: ['Sett', 'Garen', 'Volibear'],
+            winner: 2,
+            form: 1,
+            free: 0
+        },{
+            id: 2,
+            class: 'Suporte',
+            player1: 'Camelo Solitário',
+            champ1: 'Morgana',
+            bans1: ['Zyra', 'Heimerdinger', 'Taric'],
+            player2: 'Killleer',
+            champ2: 'Morgana',
+            bans2: ['Kayle', 'Zilean', 'Janna'],
+            winner: 1,
+            form: 1,
+            free: 3
+        },
+        {
+            id: 3,
+            class: 'Mago',
+            player1: 'Xorope',
+            champ1: 'Gragas',
+            bans1: ['Ahri', 'Diana', 'Syndra'],
+            player2: 'Panquequin',
+            champ2: 'Veigar',
+            bans2: ['Anivia', 'Fiddlesticks', 'LeBlanc'],
+            winner: 1,
+            form: 1,
+            free: 0
+        },{
+            id: 4,
+            class: 'Atirador',
+            player1: 'Panquequin',
+            champ1: 'Jinx',
+            bans1: ['Caitlyn', 'Xayah', 'Senna'],
+            player2: 'Xorope',
+            champ2: 'Corki',
+            bans2: ['Quinn', 'Varus', 'Jayce'],
+            winner: 2,
+            form: 1,
+            free: 1
+        },
+        {
+            id: 5,
+            class: 'Tanque',
+            player1: 'Kuter',
+            champ1: '',
+            bans1: [],
+            player2: 'Ernest',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },{
+            id: 6,
+            class: 'Lutador',
+            player1: 'Ernest',
+            champ1: '',
+            bans1: [],
+            player2: 'Kuter',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },
+        {
+            id: 7,
+            class: 'Assassino',
+            player1: 'Kerm of Helm',
+            champ1: '',
+            bans1: [],
+            player2: 'Iponema',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },{
+            id: 8,
+            class: 'Lutador',
+            player1: 'Iponema',
+            champ1: '',
+            bans1: [],
+            player2: 'Kerm of Helm',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },
+        {
+            id: 9,
+            class: 'Tanque',
+            player1: 'STG Yoqks',
+            champ1: '',
+            bans1: [''],
+            player2: 'nb porém LINDO',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },{
+            id: 10,
+            class: 'Mago',
+            player1: 'nb porém LINDO',
+            champ1: '',
+            bans1: [],
+            player2: 'STG Yoqks',
+            champ2: '',
+            bans2: [],
+            winner: 0,
+            form: 0,
+            free: 0
+        },
+        {
+            id: 11,
+            ass: 'Tryndamere',
+            lut: "Rek'Sai",
+            mag: 'Vladimir',
+            ati: 'Jinx',
+            sup: 'Morgana',
             tan: 'Nunu'
         }
     ]

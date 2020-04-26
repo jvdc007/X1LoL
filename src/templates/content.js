@@ -9,7 +9,7 @@ Vue.component('Content', {
                 <Calendar/>
             </div>
             <div id='right'>
-                
+                <VideoBox/>
             </div>
         </div>`,
 })
