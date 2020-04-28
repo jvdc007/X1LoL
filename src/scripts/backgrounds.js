@@ -9,7 +9,7 @@ function setBackground(){
     }else{
         champ = first.hist[2].champ;
     }
-    body.style.backgroundImage = `url('imgs/champions/${champ}.jpg')`;
+    body.style.backgroundImage = `url("imgs/champions/${champ}.jpg")`;
 }
 
 function getFirst(){
