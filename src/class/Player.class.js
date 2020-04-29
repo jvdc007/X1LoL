@@ -1,4 +1,4 @@
-let rounds = createRounds();
+let rounds = createGames();
 
 function player(nick){
     let games = 0;
@@ -7,24 +7,54 @@ function player(nick){
     let kills = 0;
     let farm = 0;
     let towers = 0;
-    let hist = []
-    rounds.forEach(round => {
-        let gameAnt = 0;
-        round.forEach(game => {
-            games += getGames(game, nick);
-            wins += getWins(game, nick);
-            if(game.id % 2 == 1){
-                gameAnt = game;
-            }else{
-                ks += getKs(game, gameAnt, nick);
-            }
-            kills += getKills(game, nick);
-            farm += getFarm(game, nick);
-            towers += getTowers(game, nick);
-            if(game.winner != 0){
-                hist.unshift(getChamp(game, nick));
-            }
-        });
+    let hist = [];
+    let quarG = 0;
+    let quarW = 0;
+    let semiG = 0;
+    let semiW = 0;
+    let tercG = 0;
+    let tercW = 0;
+    let finalG = 0;
+    let finalW = 0;
+    rounds.forEach((round, index) => {
+        if(index == 18){
+            round.forEach(game => {
+                quarG += getGames(game, nick);
+                quarW += getWins(game, nick);
+            })
+        }else if(index == 19){
+            round.forEach(game => {
+                semiG += getGames(game, nick);
+                semiW += getWins(game, nick);
+            })
+        }else if(index == 20){
+            round.forEach(game => {
+                tercG += getGames(game, nick);
+                tercW += getWins(game, nick);
+            })
+        }else if(index == 21){
+            round.forEach(game => {
+                finalG += getGames(game, nick);
+                finalW += getWins(game, nick);
+            })
+        }else{
+            let gameAnt = 0;
+            round.forEach(game => {
+                games += getGames(game, nick);
+                wins += getWins(game, nick);
+                if(game.id % 2 == 1){
+                    gameAnt = game;
+                }else{
+                    ks += getKs(game, gameAnt, nick);
+                }
+                kills += getKills(game, nick);
+                farm += getFarm(game, nick);
+                towers += getTowers(game, nick);
+                if(game.winner != 0){
+                    hist.unshift(getChamp(game, nick));
+                }
+            });
+        }
     });
     return {
         nick: nick,
@@ -37,7 +67,15 @@ function player(nick){
         farm: farm,
         towers: towers,
         mmr: getMmr(kills, farm, towers),
-        hist: setHist(hist)
+        hist: setHist(hist),
+        quarG: quarG,
+        quarW: quarW,
+        semiG: semiG,
+        semiW: semiW,
+        tercG: tercG,
+        tercW: tercW,
+        finalG: finalG,
+        finalW: finalW
     }
 }
 

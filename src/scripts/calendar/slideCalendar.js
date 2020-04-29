@@ -1,5 +1,5 @@
 function initCalendar(){
-    let lastRound = createRounds().length;
+    let lastRound = createGames().length;
     for(let i=1; i<lastRound; i++){
         let pastRound = document.querySelector('#calendar #round'+i);
         pastRound.style.display = 'none';
