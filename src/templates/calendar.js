@@ -11,9 +11,9 @@ Vue.component('Calendar', {
                     <h3 v-else-if='index == 21'>Final</h3>
                     <button @click='next'>-></button>
                 </div>
-                <div id='games' v-if='index < 18'> 
+                <div id='regular' v-if='index < 18'> 
                     <a class='games' v-for='game in round' v-if='game.id != 11' @click='getLink(game.link)'>
-                        <div v-bind:class='games(game.id, 1)'>
+                        <div v-bind:class='games(game.id, 1, index)'>
                             <div v-bind:class='mold(game.free, 1)' v-if="game.champ1 != ''">
                                 <img class='champs' v-if="game.champ1 != ''" v-bind:src="'imgs/champIcons/'+game.champ1+'.png'">
                             </div>
@@ -24,8 +24,8 @@ Vue.component('Calendar', {
                                 </div>
                             </div> 
                         </div>
-                        <span v-bind:class='games(game.id, 0)'>vs</span>
-                        <div v-bind:class='games(game.id, 2)'>
+                        <span v-bind:class='games(game.id, 0, index)'>vs</span>
+                        <div v-bind:class='games(game.id, 2, index)'>
                             <div>
                                 <span v-bind:class='result(game.player2, game)'>{{game.player2}}</span>
                                 <div class='bans bansPlayer2'>
@@ -64,30 +64,44 @@ Vue.component('Calendar', {
                         </div>
                     </div>
                 </div>
-                <div v-else>
-                    <a class='games' v-for='game in round' v-if='game.id != 11' @click='getLink(game.link)'>
-                        <div v-bind:class='games(game.id, 1)'>
-                            <div v-bind:class='mold(game.free, 1)' v-if="game.champ1 != ''">
-                                <img class='champs' v-if="game.champ1 != ''" v-bind:src="'imgs/champIcons/'+game.champ1+'.png'">
+                <div class='death' v-else-if='index >= 18'>
+                    <a class='games' v-for='game in round' @click='getLink(game.link)'>
+                        <div v-bind:class='games(game.id, 1, index)'>
+
+                            <div class='champPool'>
+                                <div v-bind:class='moldCh(game, champ, 1)' v-if="game.champ1 != ''" v-for='champ in game.selec1'>
+                                    <img class='champs' v-bind:src="'imgs/champIcons/'+champ+'.png'"/>
+                                </div>
                             </div>
+
                             <div>
                                 <span v-bind:class='result(game.player1, game)'>{{game.player1}}</span>
                                 <div class='bans'>
                                     <img class='bansImg' v-for='ban in game.bans1' v-bind:src="'imgs/champIcons/'+ban+'.png'"/>
                                 </div>
-                            </div> 
+                            </div>
+
                         </div>
-                        <span v-bind:class='games(game.id, 0)'>vs</span>
-                        <div v-bind:class='games(game.id, 2)'>
+
+
+                        <span v-bind:class='games(game.id, 0, index)'>vs</span>
+
+
+                        <div v-bind:class='games(game.id, 2, index)'>
+
                             <div>
                                 <span v-bind:class='result(game.player2, game)'>{{game.player2}}</span>
                                 <div class='bans bansPlayer2'>
                                     <img class='bansImg' v-for='ban in game.bans2' v-bind:src="'imgs/champIcons/'+ban+'.png'"/>
                                 </div>
                             </div>
-                            <div v-bind:class='mold(game.free, 2)' v-if="game.champ2 != ''">
-                                <img class='champs' v-if="game.champ2 != ''" v-bind:src="'imgs/champIcons/'+game.champ2+'.png'">
+                            
+                            <div class='champPool'>
+                                <div v-bind:class='moldCh(game, champ, 2)' v-if="game.champ2 != ''" v-for='champ in game.selec2'>
+                                    <img class='champs' v-bind:src="'imgs/champIcons/'+champ+'.png'"/>
+                                </div>  
                             </div>
+                    
                         </div>
                     </a>
                 </div>
@@ -109,8 +123,11 @@ Vue.component('Calendar', {
         mold(free, n){
             return moldFree(free, n);
         },
-        games(id, player){
-            return gamesInRound(id, player);
+        moldCh(game, champ, id){
+            return moldChosen(game, champ, id);
+        },
+        games(id, player, index){
+            return gamesInRound(id, player, index);
         },
         result(player, game){
             return gameResult(player, game); 

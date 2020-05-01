@@ -9,7 +9,6 @@
     display: flex;
     align-items: center;
     width: 65%;
-    border: 1px solid red;
 }
 #infoPlayers div#mainInfo img#icon{
     width: 60px;
@@ -40,7 +39,6 @@
     overflow: auto;
     text-align: center;
     padding-top: 7px;
-    border: 1px solid red;
 }
 ::-webkit-scrollbar {
     width: 3px;
@@ -73,5 +71,4 @@
     height: 20px;
 }
 #infoPlayers #statistics{
-    border: 1px solid red;
 }

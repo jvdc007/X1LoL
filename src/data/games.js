@@ -19,7 +19,7 @@ function createGames(){
         round17(),
         round18(),
         quartas(),
-        //semis(),
+        semis(),
         //terceiro(),
         //final()
     ]

@@ -2126,7 +2126,8 @@ function round16(){
             bans2: ['Braum', 'Sett', 'Illaoi'],
             winner: 1,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/ZxTKuf-66Og'
         },{
             id: 2,
             class: 'Lutador',
@@ -2138,7 +2139,8 @@ function round16(){
             bans2: ['Fizz', 'Sett', 'Trundle'],
             winner: 1,
             form: 1,
-            free: 1
+            free: 1,
+            link: 'https://www.youtube.com/embed/HK5bm2DkdEM'
         },
         {
             id: 3,
@@ -2151,7 +2153,8 @@ function round16(){
             bans2: ['Urgot', 'Yorick', 'Mordekaiser'],
             winner: 1,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/EVuBKFAB5Xk'
         },{
             id: 4,
             class: 'Assassino',
@@ -2163,7 +2166,8 @@ function round16(){
             bans2: ['Fiora', 'Nocturne', 'Tristana'],
             winner: 2,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/265Rt7wAK9w'
         },
         {
             id: 5,
@@ -2176,7 +2180,8 @@ function round16(){
             bans2: ['Fizz', 'Tryndamere', 'Vayne'],
             winner: 1,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/sH6NFWDPid0'
         },{
             id: 6,
             class: 'Atirador',
@@ -2188,7 +2193,8 @@ function round16(){
             bans2: ['Teemo', 'Tristana', 'Quinn'],
             winner: 1,
             form: 2,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/99FbPK85A0c'
         },
         {
             id: 7,
@@ -2201,7 +2207,8 @@ function round16(){
             bans2: ['Ivern', 'Taliyah', 'Heimerdinger'],
             winner: 2,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/A7J1W2iI7U4'
         },{
             id: 8,
             class: 'Mago',
@@ -2213,7 +2220,8 @@ function round16(){
             bans2: ['Zoe', 'Syndra', 'Sylas'],
             winner: 2,
             form: 1,
-            free: 1
+            free: 1,
+            link: 'https://www.youtube.com/embed/_PJ6s0kyd4Y'
         },
         {
             id: 9,
@@ -2226,7 +2234,8 @@ function round16(){
             bans2: ['Tristana', 'Miss Fortune', 'Jinx'],
             winner: 1,
             form: 1,
-            free: 1
+            free: 1,
+            link: 'https://www.youtube.com/embed/FW8gjzEz-k4'
         },{
             id: 10,
             class: 'Assassino',
@@ -2238,7 +2247,8 @@ function round16(){
             bans2: ['Katarina', 'Nidalee', 'Tryndamere'],
             winner: 2,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/XnIpcKTUhTo'
         },
         {
             id: 11,
@@ -2264,7 +2274,8 @@ function round17(){
             bans2: ['Braum', 'Sett', 'Ornn'],
             winner: 2,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/IUJ5XB41qpc'
         },{
             id: 2,
             class: 'Mago',
@@ -2276,7 +2287,8 @@ function round17(){
             bans2: ['Heimerdinger', 'Zyra', 'Morgana'],
             winner: 1,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/OJZuRLfMWyI'
         },
         {
             id: 3,
@@ -2289,7 +2301,8 @@ function round17(){
             bans2: ['Jayce', 'Varus', 'Quinn'],
             winner: 1,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/jpTcODWsE20'
         },{
             id: 4,
             class: 'Tanque',
@@ -2301,7 +2314,8 @@ function round17(){
             bans2: ['Gnar', 'Tahm Kench', 'Illaoi'],
             winner: 2,
             form: 2,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/JD9hHsGGojE'
         },
         {
             id: 5,
@@ -2314,7 +2328,8 @@ function round17(){
             bans2: ['Kled', 'Trundle', 'Ornn'],
             winner: 1,
             form: 1,
-            free: 2
+            free: 2,
+            link: 'https://www.youtube.com/embed/Hldooyj0h2I'
         },{
             id: 6,
             class: 'Assassino',
@@ -2326,7 +2341,8 @@ function round17(){
             bans2: ['Fizz', 'Teemo', 'Sylas'],
             winner: 1,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/78PC2NdDHWk'
         },
         {
             id: 7,
@@ -2339,7 +2355,8 @@ function round17(){
             bans2: ['Zoe', 'Syndra', 'Nidalee'],
             winner: 1,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/ou2kz0v5bP8'
         },{
             id: 8,
             class: 'Atirador',
@@ -2351,7 +2368,8 @@ function round17(){
             bans2: ['Aphelios', "Kog'Maw", 'Twitch'],
             winner: 2,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/dsxA6gPHBUE'
         },
         {
             id: 9,
@@ -2364,7 +2382,8 @@ function round17(){
             bans2: ['Singed', 'Illaoi', 'Garen'],
             winner: 2,
             form: 1,
-            free: 1
+            free: 1,
+            link: 'https://www.youtube.com/embed/M3IYOq-233c'
         },{
             id: 10,
             class: 'Mago',
@@ -2376,7 +2395,8 @@ function round17(){
             bans2: ['Zilean', 'Diana', 'Orianna'],
             winner: 2,
             form: 1,
-            free: 1
+            free: 1,
+            link: 'https://www.youtube.com/embed/pyNnyRQ9Jrw'
         },
         {
             id: 11,
@@ -2402,7 +2422,8 @@ function round18(){
             bans2: ['Sett', 'Garen', 'Volibear'],
             winner: 2,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/0NCqpkoCmMg'
         },{
             id: 2,
             class: 'Suporte',
@@ -2414,7 +2435,8 @@ function round18(){
             bans2: ['Kayle', 'Zilean', 'Janna'],
             winner: 1,
             form: 1,
-            free: 3
+            free: 3,
+            link: 'https://www.youtube.com/embed/BZNhaHq0E_k'
         },
         {
             id: 3,
@@ -2427,7 +2449,8 @@ function round18(){
             bans2: ['Anivia', 'Fiddlesticks', 'LeBlanc'],
             winner: 1,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/p0Y7rR5QX34'
         },{
             id: 4,
             class: 'Atirador',
@@ -2439,7 +2462,8 @@ function round18(){
             bans2: ['Quinn', 'Varus', 'Jayce'],
             winner: 2,
             form: 1,
-            free: 1
+            free: 1,
+            link: 'https://www.youtube.com/embed/FaAhNMzUzN4'
         },
         {
             id: 5,
@@ -2452,7 +2476,8 @@ function round18(){
             bans2: ['Kled', 'Trundle', 'Ornn'],
             winner: 2,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/zeH6gTViU2U'
         },{
             id: 6,
             class: 'Lutador',
@@ -2464,7 +2489,8 @@ function round18(){
             bans2: ['Ekko', 'Taric', 'Tryndamere'],
             winner: 1,
             form: 2,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/S-7xyfgrQyQ'
         },
         {
             id: 7,
@@ -2477,7 +2503,8 @@ function round18(){
             bans2: ['Teemo', 'LeBlanc', 'Shaco'],
             winner: 2,
             form: 1,
-            free: 2
+            free: 2,
+            link: 'https://www.youtube.com/embed/N7jE7N6H1z4'
         },{
             id: 8,
             class: 'Lutador',
@@ -2489,7 +2516,8 @@ function round18(){
             bans2: ['Zac', 'Riven', 'Illaoi'],
             winner: 1,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/e8BnuJ_xdHs'
         },
         {
             id: 9,
@@ -2502,7 +2530,8 @@ function round18(){
             bans2: ['Sett', 'Illaoi', 'Aatrox'],
             winner: 1,
             form: 1,
-            free: 2
+            free: 2,
+            link: 'https://www.youtube.com/embed/tcHgSy11xaI'
         },{
             id: 10,
             class: 'Mago',
@@ -2514,7 +2543,8 @@ function round18(){
             bans2: ['Annie', 'Zilean', 'Lux'],
             winner: 1,
             form: 1,
-            free: 0
+            free: 0,
+            link: 'https://www.youtube.com/embed/Ny0CIgFoBJs'
         },
         {
             id: 11,

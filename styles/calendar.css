@@ -1,3 +1,19 @@
+@keyframes rotate{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotateInv{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
 #calendar{
     height: 99.7%;
 }
@@ -17,7 +33,7 @@
 #calendar .rounds h3{
     font-size: 15pt;
 }
-#calendar .rounds #games .games{
+#calendar .games{
     margin-bottom: 2px;
     display: grid;
     grid-template-columns: 10fr 1fr 10fr;
@@ -27,7 +43,7 @@
 #calendar .player1, #calendar .player2{
     display: flex;
 }
-#calendar .rounds #games .games .player2{
+#calendar .rounds .games .player2{
     justify-content: flex-end;
 }
 #calendar .player1 span{
@@ -36,10 +52,10 @@
 #calendar .player2 span{
     margin-right: 5px;
 }
-#calendar .rounds #games .games span.nick{
+#calendar .rounds .games span.nick{
     font-size: 15pt;
 }
-#calendar .rounds #games .games div.mold{
+#calendar .rounds .games div.mold{
     background-color: rgb(65,105,225);
     display: flex;
     width: 30px;
@@ -47,12 +63,12 @@
     padding: 2px;
     border-radius: 100%;
 }
-#calendar .rounds #games .games div.moldF{
+#calendar .rounds .games div.moldF{
     background-image: linear-gradient(45deg, rgb(240, 16, 240), gold);
 }
-#calendar .rounds #games .games img.champs{
-    width: 30px;
-    height: 30px;
+#calendar .rounds .games img.champs{
+    width: 100%;
+    height: 100%;
     border-radius: 100%;
 }
 #calendar .game1{
@@ -104,25 +120,32 @@
     border-radius: 100%;
     margin-top: 3px;
 }
-#calendar .box{
-    position: absolute;
-    width: 560px;
-    height: 315px;
-    
-    border: 1px solid red;
+
+#calendar .death .games{
+    margin-bottom: 10px;
 }
-#calendar .box iframe{
-    position: absolute;
-    width: 100%;
+#calendar .champPool{
+    display: flex;
+    align-items: center;
 }
-#calendar .box .closer{
-    position: absolute;
-    right: 0;
-    width: 40px;
-    height: 40px;
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.8);
-    cursor: pointer;
+#calendar .moldCh{
+    background-image: linear-gradient(45deg, rgb(240, 16, 240), gold);
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin: 0 1px;
+    padding: 2px;
+    border-radius: 100%;
+    animation: rotate 0.5s linear infinite;
+}
+#calendar .moldFail{
+    background-color: rgb(65,105,225);
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    border-radius: 100%;
+}
+#calendar .moldCh img{
+    animation: rotateInv 0.5s linear infinite;
 }
