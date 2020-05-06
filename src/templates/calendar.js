@@ -89,7 +89,7 @@ Vue.component('Calendar', {
 
                         <div v-bind:class='games(game.id, 2, index)'>
 
-                            <div>
+                            <div class='nickRight'>
                                 <span v-bind:class='result(game.player2, game)'>{{game.player2}}</span>
                                 <div class='bans bansPlayer2'>
                                     <img class='bansImg' v-for='ban in game.bans2' v-bind:src="'imgs/champIcons/'+ban+'.png'"/>

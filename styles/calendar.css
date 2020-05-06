@@ -1,75 +1,37 @@
-@keyframes rotate{
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-@keyframes rotateInv{
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(-360deg);
-    }
-}
 #calendar{
     height: 99.7%;
 }
-#calendar .rounds{
+
+
+#calendar div.rounds{
     padding: 5px;
 }
-#calendar .rounds #navCalendar{
+
+
+#calendar div#navCalendar{
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
-#calendar .rounds #navCalendar button{
+#calendar #navCalendar button{
     width: 50px;
     border: none;
     background-color: rgba(0,0,0,0);
 }
-#calendar .rounds h3{
+#calendar #navCalendar h3{
     font-size: 15pt;
 }
-#calendar .games{
+
+
+#calendar a.games{
     margin-bottom: 2px;
     display: grid;
     grid-template-columns: 10fr 1fr 10fr;
     cursor: pointer;
     text-decoration: none;
 }
-#calendar .player1, #calendar .player2{
-    display: flex;
-}
-#calendar .rounds .games .player2{
-    justify-content: flex-end;
-}
-#calendar .player1 span{
-    margin-left: 5px;
-}
-#calendar .player2 span{
-    margin-right: 5px;
-}
-#calendar .rounds .games span.nick{
-    font-size: 15pt;
-}
-#calendar .rounds .games div.mold{
-    background-color: rgb(65,105,225);
-    display: flex;
-    width: 30px;
-    height: 30px;
-    padding: 2px;
-    border-radius: 100%;
-}
-#calendar .rounds .games div.moldF{
-    background-image: linear-gradient(45deg, rgb(240, 16, 240), gold);
-}
-#calendar .rounds .games img.champs{
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
+#calendar .death a.games{
+    margin-bottom: 10px;
 }
 #calendar .game1{
     border-top: 1px solid rgba(65,105,225, 0.5);
@@ -79,56 +41,94 @@
     padding-bottom: 2px;
     border-bottom: 1px solid rgba(65,105,225, 0.5);
 }
-#calendar .vs{
-    /* border: 1px solid red; */
+
+
+#calendar div.player1, #calendar div.player2{
+    display: flex;
 }
-#calendar .bans{
+#calendar div.player2{
+    justify-content: flex-end;
+}
+
+
+#calendar .player1 span{
+    margin-left: 5px;
+}
+#calendar .player2 span{
+    margin-right: 5px;
+}
+#calendar span.nick{
+    font-size: 15pt;
+}
+#calendar span.winner{
+    color: rgb(76, 212, 76);
+}
+
+
+#calendar div.mold{
+    background-color: rgb(65,105,225);
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 100%;
+}
+#calendar div.moldF{
+    background-image: linear-gradient(45deg, rgb(240, 16, 240), gold);
+}
+
+
+#calendar img.champs{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+
+#calendar div.bans{
     display: flex;
     margin: 0 5px;
 }
-#calendar .bansPlayer2{
+#calendar div.bansPlayer2{
     justify-content: flex-end;
 }
-#calendar .bansImg{
+#calendar img.bansImg{
     width: 15px;
     height: 15px;
     border-radius: 100%;
     margin: 0 1px;
 }
-#calendar .winner{
-    color: rgb(76, 212, 76);
-}
-#calendar .free{
+
+
+#calendar div.free{
     display: flex;
     justify-content: space-between;
     margin: 0 50px;
 }
-#calendar .champFree{
+#calendar div.champFree{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 2px;
 }
-#calendar .imgFree{
+#calendar img.imgFree{
     width: 45px;
     height: 45px;
     border-radius: 100%;
 }
-#calendar .classFree{
+#calendar img.classFree{
     width: 30px;
     height: 30px;
     border-radius: 100%;
     margin-top: 3px;
 }
 
-#calendar .death .games{
-    margin-bottom: 10px;
-}
-#calendar .champPool{
+
+#calendar div.champPool{
     display: flex;
     align-items: center;
 }
-#calendar .moldCh{
+#calendar div.moldCh{
     background-image: linear-gradient(45deg, rgb(240, 16, 240), gold);
     display: flex;
     width: 30px;
@@ -138,7 +138,10 @@
     border-radius: 100%;
     animation: rotate 0.5s linear infinite;
 }
-#calendar .moldFail{
+#calendar .moldCh img{
+    animation: rotateInv 0.5s linear infinite;
+}
+#calendar div.moldFail{
     background-color: rgb(65,105,225);
     display: flex;
     width: 20px;
@@ -146,6 +149,8 @@
     padding: 1px;
     border-radius: 100%;
 }
-#calendar .moldCh img{
-    animation: rotateInv 0.5s linear infinite;
+
+
+#calendar div.nickRight{
+    text-align: right;
 }
