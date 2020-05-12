@@ -24,6 +24,7 @@ Vue.component('Classification', {
                 </tr>
             </table>
             <table id='elim'>
+
                 <div v-for='(round, index) in rounds'>
                     <div class='etapas' v-if='index == 18'>
                         <h3>Quartas de Final</h3>

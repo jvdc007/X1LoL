@@ -16,6 +16,7 @@ function player(nick){
     let tercW = 0;
     let finalG = 0;
     let finalW = 0;
+
     rounds.forEach((round, index) => {
         if(index == 18){
             round.forEach(game => {
@@ -75,7 +76,7 @@ function player(nick){
         tercG: tercG,
         tercW: tercW,
         finalG: finalG,
-        finalW: finalW
+        finalW: finalW,
     }
 }
 
