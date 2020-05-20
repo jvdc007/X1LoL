@@ -60,7 +60,17 @@ td#pos7, td#pos8, td#pos9, td#pos10{
 }
 #classification div.bord{
     display: grid;
-    grid-template-columns: 10fr 8fr 10fr;
+    grid-template-columns: 10fr 1fr 10fr;
     border-bottom: 1px solid whitesmoke;
     border-radius: 30px;
+}
+#classification div.col{
+    display: flex;
+    flex-direction: column;
+}
+#classification div.res{
+    display: flex;
+}
+#classification div.res span{
+    margin: 0 3px;
 }

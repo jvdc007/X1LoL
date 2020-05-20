@@ -8,35 +8,52 @@ function player(nick){
     let farm = 0;
     let towers = 0;
     let hist = [];
+    ////////////////////
     let quarG = 0;
     let quarW = 0;
+    let quarP = 0;
     let semiG = 0;
     let semiW = 0;
+    let semiP = 0;
     let tercG = 0;
     let tercW = 0;
+    let tercP = 0;
     let finalG = 0;
     let finalW = 0;
+    let finalP = 0;
 
     rounds.forEach((round, index) => {
         if(index == 18){
-            round.forEach(game => {
+            round.forEach((game, index) => {
                 quarG += getGames(game, nick);
                 quarW += getWins(game, nick);
+                if(index == 0 || index == 3){
+                    quarP = (quarP == 0 ? pos(game, nick, quarP) : quarP);
+                }
             })
         }else if(index == 19){
-            round.forEach(game => {
+            round.forEach((game, index) => {
                 semiG += getGames(game, nick);
                 semiW += getWins(game, nick);
+                if(index == 0 || index == 5){
+                    semiP = (semiP == 0 ? pos(game, nick, semiP) : semiP);
+                }
             })
         }else if(index == 20){
-            round.forEach(game => {
+            round.forEach((game, index) => {
                 tercG += getGames(game, nick);
                 tercW += getWins(game, nick);
+                if(index == 0){
+                    tercP = (tercP == 0 ? pos(game, nick, tercP) : tercP);
+                }
             })
         }else if(index == 21){
-            round.forEach(game => {
+            round.forEach((game, index) => {
                 finalG += getGames(game, nick);
                 finalW += getWins(game, nick);
+                if(index == 0){
+                    finalP = (finalP == 0 ? pos(game, nick, finalP) : finalP);
+                }
             })
         }else{
             let gameAnt = 0;
@@ -71,12 +88,16 @@ function player(nick){
         hist: setHist(hist),
         quarG: quarG,
         quarW: quarW,
+        quarP: quarP,
         semiG: semiG,
         semiW: semiW,
+        semiP: semiP,
         tercG: tercG,
         tercW: tercW,
+        tercP: tercP,
         finalG: finalG,
         finalW: finalW,
+        finalP: finalP
     }
 }
 
@@ -175,4 +196,13 @@ function setHist(hist){
         hist.splice(pos, 1);
     }
     return hist;
+}
+
+function pos(game, nick, q){
+    if(game.player1 == nick){
+        return 1;
+    }if(game.player2 == nick){
+        return 2;
+    }
+    return q;
 }
